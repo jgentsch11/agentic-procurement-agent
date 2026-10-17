@@ -1,0 +1,38 @@
+As part of the onsite face-to-face interview, we ask that you prepare and present a small but realistic agentic AI solution. The goal is not to build a production-ready procurement platform, but to demonstrate practical AI engineering, tool integration, solution design, security awareness, and the ability to explain a customer-relevant use case clearly. 
+
+Customer Scenario 
+A customer wants to simplify internal purchasing for standard office and IT equipment. Today, employees manually search different suppliers, compare prices, check availability, and send procurement requests by email. This process is slow, inconsistent, and difficult to audit. The customer would like to explore whether an AI-powered Procurement Agent could support employees by finding suitable purchasing options across trusted suppliers and preparing a structured procurement request. 
+
+Candidate Task 
+Build a Procurement Agent that can help a user search for a product, query three trusted online shops or supplier sources, compare availability and pricing, and present a clear recommendation. The solution may be implemented on any platform or technology stack. It does not need to be based on Microsoft technology. 
+
+Functional Requirements 
+Accept a product request from the user, for example: “I need a 27-inch monitor suitable for office work” or “Find a docking station compatible with USB-C laptops.” 
+Search or access three trusted online shops, supplier portals, APIs, mock APIs, or structured sample data sources. 
+Compare at least product name, supplier, price, availability, delivery estimate, and important product details. 
+Present the options in a clear and user-friendly way, including a recommendation and short reasoning. 
+OPTIONALLY support a “place order” or “request purchase” action. This does not need to complete a real purchase. It can create a queued procurement request, such as an email draft, a Microsoft List entry, a database record, a ticket, or another workflow item. 
+Handle unavailable products, missing prices, duplicate results, and cases where no suitable product is found. 
+
+Non-Functional Requirements 
+The solution should be understandable, reliable, and easy to demonstrate in an interview setting. 
+The candidate should be able to explain the architecture, data flow, tool calls, orchestration logic, and limitations. 
+The solution should consider a technical implementation is NOT mandatory basic enterprise requirements such as authentication assumptions, auditability, approval workflows, data privacy, responsible AI behavior, and safe handling of purchasing actions. Candidate should be able to talk about those considerations and potential implementations. 
+The agent should not make an irreversible purchase without explicit human confirmation. 
+If real online shops are used, the candidate should respect website terms, avoid unnecessary scraping load, and be ready to explain why the chosen approach is appropriate. 
+
+Expected Deliverables for the Interview 
+A short demo of the working prototype or a clearly prepared walkthrough if live connectivity is not possible. 
+A brief architecture explanation, including selected platform, components, data sources, and how the agent decides what to do. 
+A discussion of trade-offs, such as real APIs vs. mock data, deterministic workflows vs. LLM-driven decisions, and user experience vs. governance controls. 
+A short explanation of how this could be hardened for a real enterprise customer. 
+Codebase: GitHub link or ZIP file 
+README: Setup instructions 
+ 
+
+What We Will Evaluate 
+Practical AI engineering skills and ability to build an end-to-end prototype. 
+Understanding of agentic patterns, tool use, orchestration, and guardrails. 
+Ability to design for customer value, not only technical novelty. 
+Clarity of communication and ability to explain technical decisions to both technical and business stakeholders. 
+Awareness of enterprise readiness topics such as security, approvals, audit trails, governance, and responsible automation. 

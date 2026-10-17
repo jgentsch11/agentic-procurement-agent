@@ -1,0 +1,5376 @@
+{
+  "vendor": {
+    "code": "TSC",
+    "name": "TechSource Supply Co.",
+    "country": "US",
+    "currency": "USD",
+    "prices_include_tax": false,
+    "feed_generated": "2026-10-16T06:00:00Z"
+  },
+  "products": [
+    {
+      "product": {
+        "id": "TS20003",
+        "name": "Microsoft LXM-00001 - Ergonomic Keyboard",
+        "brand": "Microsoft",
+        "identifiers": {
+          "mpn": "lxm-00001",
+          "upc": "001284696552"
+        },
+        "category": {
+          "code": "INP-KB",
+          "label": "Input Devices / Keyboards"
+        },
+        "long_description": "Wired USB connectivity, ergonomic design.",
+        "attributes": [
+          {
+            "name": "connection",
+            "value": "Wired USB"
+          },
+          {
+            "name": "ergonomic",
+            "value": true
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 60.18,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 74,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": {
+        "average": 3.57,
+        "count": 82,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20006",
+        "name": "Branch BR-ERG-01 - Ergonomic Chair",
+        "brand": "Branch",
+        "identifiers": {
+          "mpn": "br-erg-01",
+          "upc": "073324300606"
+        },
+        "category": {
+          "code": "FURN-CH",
+          "label": "Office Furniture / Chairs"
+        },
+        "long_description": "Branch Ergonomic Chair.",
+        "attributes": [
+          {
+            "name": "adjustable_arms",
+            "value": true
+          },
+          {
+            "name": "lumbar",
+            "value": true
+          },
+          {
+            "name": "weight_capacity_lb",
+            "value": 300
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 334.73,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 176,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 4.47,
+        "count": 335,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20009",
+        "name": "MacBook Air 13-inch M2 8GB 256GB Midnight | Apple",
+        "brand": "Apple",
+        "identifiers": {
+          "mpn": "MLXW3LL/A",
+          "upc": "059042030995"
+        },
+        "category": {
+          "code": "NB",
+          "label": "Laptops"
+        },
+        "long_description": "13.6\" display, Apple M2, 8 GB RAM, 256 GB SSD.",
+        "attributes": [
+          {
+            "name": "screen_in",
+            "value": 13.6
+          },
+          {
+            "name": "cpu",
+            "value": "Apple M2"
+          },
+          {
+            "name": "ram_gb",
+            "value": 8
+          },
+          {
+            "name": "ssd_gb",
+            "value": 256
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 1162.7,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 317,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 3.56,
+        "count": 183,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 0,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20012",
+        "name": "Anker 7-in-1 USB-C Hub (HDMI, PD, SD, 3x USB-A)",
+        "brand": "Anker",
+        "identifiers": {
+          "mpn": "A8352",
+          "upc": "097122094147"
+        },
+        "category": {
+          "code": "CAB-ADP",
+          "label": "Cables / Adapters"
+        },
+        "long_description": "Anker 7-in-1 USB-C Hub (HDMI, PD, SD, 3x USB-A).",
+        "attributes": [
+          {
+            "name": "ports",
+            "value": 7
+          },
+          {
+            "name": "pd_w",
+            "value": 85
+          }
+        ]
+      },
+      "pricing": {
+        "amount": null,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 72,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": null,
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20015",
+        "name": "Lenovo ThinkPad USB-C Dock Gen 2",
+        "brand": "Lenovo",
+        "identifiers": {
+          "mpn": "40AS0090US",
+          "upc": "095871474661"
+        },
+        "category": {
+          "code": "DOCK",
+          "label": "Docking Stations"
+        },
+        "long_description": "USB-C host connection, up to 3 displays, 60 W power delivery.",
+        "attributes": [
+          {
+            "name": "connector",
+            "value": "USB-C"
+          },
+          {
+            "name": "max_displays",
+            "value": 3
+          },
+          {
+            "name": "power_delivery_w",
+            "value": 60
+          },
+          {
+            "name": "thunderbolt",
+            "value": false
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 197.49,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 113,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 4.89,
+        "count": 38,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20018",
+        "name": "Dell XPS 13 9300 13.4\" i7 16GB 512GB",
+        "brand": "Dell",
+        "identifiers": {
+          "mpn": "xps9300-7909slv",
+          "upc": "092488530384"
+        },
+        "category": {
+          "code": "NB",
+          "label": "Laptops"
+        },
+        "long_description": "13.4\" display, Intel Core i7-1065G7, 16 GB RAM, 512 GB SSD.",
+        "attributes": [
+          {
+            "name": "screen_in",
+            "value": 13.4
+          },
+          {
+            "name": "cpu",
+            "value": "Intel Core i7-1065G7"
+          },
+          {
+            "name": "ram_gb",
+            "value": 16
+          },
+          {
+            "name": "ssd_gb",
+            "value": 512
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 1450.67,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 82,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": null,
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 36
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20021",
+        "name": "T7 Portable SSD 1TB USB 3.2 | Samsung",
+        "brand": "Samsung",
+        "identifiers": {
+          "mpn": "MUPC1T0TAM",
+          "upc": "057201666986"
+        },
+        "category": {
+          "code": "STO",
+          "label": "Storage"
+        },
+        "long_description": "1000 GB, USB-C 3.2.",
+        "attributes": [
+          {
+            "name": "capacity_gb",
+            "value": 1000
+          },
+          {
+            "name": "interface",
+            "value": "USB-C 3.2"
+          }
+        ]
+      },
+      "pricing": null,
+      "availability": {
+        "status": "on_request",
+        "quantity": null,
+        "lead_time_days": null
+      },
+      "logistics": {
+        "delivery_window": null,
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 3.31,
+        "count": 76,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20024",
+        "name": "230 Wireless Mouse | HP",
+        "brand": "HP",
+        "identifiers": {
+          "mpn": "3l4t0aa",
+          "upc": "016880462425"
+        },
+        "category": {
+          "code": "INP-MS",
+          "label": "Input Devices / Mice"
+        },
+        "long_description": "USB receiver connectivity.",
+        "attributes": [
+          {
+            "name": "connection",
+            "value": "USB receiver"
+          },
+          {
+            "name": "ergonomic",
+            "value": false
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 19.8,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 123,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 3.13,
+        "count": 278,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 0,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20027",
+        "name": "Philips 276B1 - 276B1 27\" QHD USB-C Docking Monitor",
+        "brand": "Philips",
+        "identifiers": {
+          "mpn": "276b1",
+          "upc": "028126465398"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "27-inch IPS panel, 2560x1440 at 75 Hz, USB-C input with power delivery.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 27
+          },
+          {
+            "name": "resolution",
+            "value": "2560x1440"
+          },
+          {
+            "name": "panel",
+            "value": "IPS"
+          },
+          {
+            "name": "usb_c",
+            "value": true
+          },
+          {
+            "name": "refresh_hz",
+            "value": 75
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 387.75,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 162,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 3.6,
+        "count": 396,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20030",
+        "name": "Microsoft 1GK-00001 - Surface Dock 2",
+        "brand": "Microsoft",
+        "identifiers": {
+          "mpn": "1GK00001",
+          "upc": "097767714936"
+        },
+        "category": {
+          "code": "DOCK",
+          "label": "Docking Stations"
+        },
+        "long_description": "Surface Connect host connection, up to 2 displays, 120 W power delivery.",
+        "attributes": [
+          {
+            "name": "connector",
+            "value": "Surface Connect"
+          },
+          {
+            "name": "max_displays",
+            "value": 2
+          },
+          {
+            "name": "power_delivery_w",
+            "value": 120
+          },
+          {
+            "name": "thunderbolt",
+            "value": false
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 269.3,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 106,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 3.96,
+        "count": 329,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20033",
+        "name": "Cable Matters 201355 - USB-C to HDMI 2.1 Cable 6ft 4K120",
+        "brand": "Cable Matters",
+        "identifiers": {
+          "mpn": "201355",
+          "upc": "084023557703"
+        },
+        "category": {
+          "code": "CAB",
+          "label": "Cables"
+        },
+        "long_description": "6 ft, HDMI 2.1.",
+        "attributes": [
+          {
+            "name": "length_ft",
+            "value": 6
+          },
+          {
+            "name": "pack_qty",
+            "value": 1
+          },
+          {
+            "name": "spec",
+            "value": "HDMI 2.1"
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 28.65,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 234,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 3.58,
+        "count": 335,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20036",
+        "name": "LG 27UP850-W - 27UP850-W 27\" UHD 4K IPS USB-C Monitor",
+        "brand": "LG",
+        "identifiers": {
+          "mpn": "27UP850-W",
+          "upc": "046127403805"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "27-inch IPS panel, 3840x2160 at 60 Hz, USB-C input with power delivery.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 27
+          },
+          {
+            "name": "resolution",
+            "value": "3840x2160"
+          },
+          {
+            "name": "panel",
+            "value": "IPS"
+          },
+          {
+            "name": "usb_c",
+            "value": true
+          },
+          {
+            "name": "refresh_hz",
+            "value": 60
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 447.41,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 193,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": null,
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 12
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20039",
+        "name": "Seagate Expansion Portable HDD 4TB",
+        "brand": "Seagate",
+        "identifiers": {
+          "mpn": "STKM4000400",
+          "upc": "038700060819"
+        },
+        "category": {
+          "code": "STO",
+          "label": "Storage"
+        },
+        "long_description": "4000 GB, USB 3.0.",
+        "attributes": [
+          {
+            "name": "capacity_gb",
+            "value": 4000
+          },
+          {
+            "name": "interface",
+            "value": "USB 3.0"
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 95.23,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "low_stock",
+        "quantity": 3,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": {
+        "average": 4.21,
+        "count": 113,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 0,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20042",
+        "name": "TP-Link TL-SG108 8-Port Gigabit Desktop Switch",
+        "brand": "TP-Link",
+        "identifiers": {
+          "mpn": "TL SG108",
+          "upc": "018231444388"
+        },
+        "category": {
+          "code": "NET",
+          "label": "Networking"
+        },
+        "long_description": "TP-Link TL-SG108 8-Port Gigabit Desktop Switch.",
+        "attributes": [
+          {
+            "name": "ports",
+            "value": 8
+          },
+          {
+            "name": "managed",
+            "value": false
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 25.53,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 42,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": null,
+      "policies": {
+        "return_days": 0,
+        "warranty_months": 36
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20045",
+        "name": "SD5700T Thunderbolt 4 Dual 4K Dock | Kensington",
+        "brand": "Kensington",
+        "identifiers": {
+          "mpn": "k35175na",
+          "upc": "033395656507"
+        },
+        "category": {
+          "code": "DOCK",
+          "label": "Docking Stations"
+        },
+        "long_description": "Thunderbolt 4 host connection, up to 2 displays, 90 W power delivery.",
+        "attributes": [
+          {
+            "name": "connector",
+            "value": "Thunderbolt 4"
+          },
+          {
+            "name": "max_displays",
+            "value": 2
+          },
+          {
+            "name": "power_delivery_w",
+            "value": 90
+          },
+          {
+            "name": "thunderbolt",
+            "value": true
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 353.76,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 115,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 4.27,
+        "count": 276,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20048",
+        "name": "Logitech MX Palm Rest",
+        "brand": "Logitech",
+        "identifiers": {
+          "mpn": "956000001",
+          "upc": "049983709135"
+        },
+        "category": {
+          "code": "ACC",
+          "label": "Accessories"
+        },
+        "long_description": "Logitech MX Palm Rest.",
+        "attributes": []
+      },
+      "pricing": {
+        "amount": 19.94,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "low_stock",
+        "quantity": 4,
+        "lead_time_days": 5
+      },
+      "logistics": {
+        "delivery_window": "5-7 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 4.06,
+        "count": 346,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20051",
+        "name": "Uplift V2 Standing Desk 60x30 Bamboo",
+        "brand": "Uplift",
+        "identifiers": {
+          "mpn": "upl-v2-6030",
+          "upc": "083749526482"
+        },
+        "category": {
+          "code": "FURN-DK",
+          "label": "Office Furniture / Desks"
+        },
+        "long_description": "60x30 in top, electric height range 25.3-50.9 in.",
+        "attributes": [
+          {
+            "name": "width_in",
+            "value": 60
+          },
+          {
+            "name": "depth_in",
+            "value": 30
+          },
+          {
+            "name": "electric",
+            "value": true
+          },
+          {
+            "name": "height_range_in",
+            "value": "25.3-50.9"
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 726.89,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 289,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 4.04,
+        "count": 191,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 12
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20054",
+        "name": "Yoga 920 13.9\" i7 8GB 256GB 2-in-1 | Lenovo",
+        "brand": "Lenovo",
+        "identifiers": {
+          "mpn": "80Y700CNUS",
+          "upc": "075202476045"
+        },
+        "category": {
+          "code": "NB",
+          "label": "Laptops"
+        },
+        "long_description": "13.9\" display, Intel Core i7-8550U, 8 GB RAM, 256 GB SSD.",
+        "attributes": [
+          {
+            "name": "screen_in",
+            "value": 13.9
+          },
+          {
+            "name": "cpu",
+            "value": "Intel Core i7-8550U"
+          },
+          {
+            "name": "ram_gb",
+            "value": 8
+          },
+          {
+            "name": "ssd_gb",
+            "value": 256
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 1185.36,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "low_stock",
+        "quantity": 3,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": null,
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 36
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20057",
+        "name": "Kensington MicroSaver 2.0 Keyed Laptop Lock",
+        "brand": "Kensington",
+        "identifiers": {
+          "mpn": "K65020WW",
+          "upc": "034002566462"
+        },
+        "category": {
+          "code": "ACC",
+          "label": "Accessories"
+        },
+        "long_description": "Kensington MicroSaver 2.0 Keyed Laptop Lock.",
+        "attributes": []
+      },
+      "pricing": {
+        "amount": 42.87,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 20,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": null,
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 12
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20060",
+        "name": "Anker A3302 - PowerConf S3 Bluetooth Speakerphone",
+        "brand": "Anker",
+        "identifiers": {
+          "mpn": "A3302",
+          "upc": "056025874867"
+        },
+        "category": {
+          "code": "AUD-SP",
+          "label": "Audio / Conferencing"
+        },
+        "long_description": "Anker PowerConf S3 Bluetooth Speakerphone.",
+        "attributes": [
+          {
+            "name": "connection",
+            "value": "Bluetooth / USB-C"
+          },
+          {
+            "name": "battery_h",
+            "value": 24
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 100.32,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "low_stock",
+        "quantity": 4,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": {
+        "average": 3.48,
+        "count": 218,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 12
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20063",
+        "name": "Dell WD22TB4 Thunderbolt 4 Dock",
+        "brand": "Dell",
+        "identifiers": {
+          "mpn": "WD22TB4",
+          "upc": "041802910104"
+        },
+        "category": {
+          "code": "DOCK",
+          "label": "Docking Stations"
+        },
+        "long_description": "Thunderbolt 4 host connection, up to 4 displays, 90 W power delivery.",
+        "attributes": [
+          {
+            "name": "connector",
+            "value": "Thunderbolt 4"
+          },
+          {
+            "name": "max_displays",
+            "value": 4
+          },
+          {
+            "name": "power_delivery_w",
+            "value": 90
+          },
+          {
+            "name": "thunderbolt",
+            "value": true
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 322.32,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "discontinued",
+        "quantity": 0,
+        "lead_time_days": null
+      },
+      "logistics": {
+        "delivery_window": null,
+        "ships_from": "TX-Dallas"
+      },
+      "rating": null,
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 12
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20066",
+        "name": "Canon imageCLASS MF455dw Mono All-in-One",
+        "brand": "Canon",
+        "identifiers": {
+          "mpn": "5161C005",
+          "upc": "060021757833"
+        },
+        "category": {
+          "code": "PRN",
+          "label": "Printers"
+        },
+        "long_description": "Monochrome laser, automatic duplex, Ethernet / Wi-Fi.",
+        "attributes": [
+          {
+            "name": "type",
+            "value": "laser"
+          },
+          {
+            "name": "color",
+            "value": false
+          },
+          {
+            "name": "duplex",
+            "value": true
+          },
+          {
+            "name": "network",
+            "value": "Ethernet / Wi-Fi"
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 398.65,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "backorder",
+        "quantity": 0,
+        "lead_time_days": 21
+      },
+      "logistics": {
+        "delivery_window": "3-4 weeks",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 4.71,
+        "count": 331,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 36
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20069",
+        "name": "iiyama ProLite XUB2792QSU-B5 27 in. QHD Monitor",
+        "brand": "iiyama",
+        "identifiers": {
+          "mpn": "XUB2792QSU-B5",
+          "upc": "007259252549"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "27-inch IPS panel, 2560x1440 at 75 Hz.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 27
+          },
+          {
+            "name": "resolution",
+            "value": "2560x1440"
+          },
+          {
+            "name": "panel",
+            "value": "IPS"
+          },
+          {
+            "name": "usb_c",
+            "value": false
+          },
+          {
+            "name": "refresh_hz",
+            "value": 75
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 256.88,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 153,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": null,
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20072",
+        "name": "Monoprice Cat6 Ethernet Patch Cable 7ft (10-pack)",
+        "brand": "Monoprice",
+        "identifiers": {
+          "mpn": "13537",
+          "upc": "062173081231"
+        },
+        "category": {
+          "code": "CAB",
+          "label": "Cables"
+        },
+        "long_description": "7 ft, Cat6 UTP, pack of 10.",
+        "attributes": [
+          {
+            "name": "length_ft",
+            "value": 7
+          },
+          {
+            "name": "pack_qty",
+            "value": 10
+          },
+          {
+            "name": "spec",
+            "value": "Cat6 UTP"
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 25.92,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 352,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": null,
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20075",
+        "name": "HP E27k G5 27\" 4K USB-C Monitor",
+        "brand": "HP",
+        "identifiers": {
+          "mpn": "6N6F2AA",
+          "upc": "032246912144"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "27-inch IPS panel, 3840x2160 at 60 Hz, USB-C input with power delivery.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 27
+          },
+          {
+            "name": "resolution",
+            "value": "3840x2160"
+          },
+          {
+            "name": "panel",
+            "value": "IPS"
+          },
+          {
+            "name": "usb_c",
+            "value": true
+          },
+          {
+            "name": "refresh_hz",
+            "value": 60
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 467.5,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 349,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 4.95,
+        "count": 118,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 12
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20078",
+        "name": "Lenovo ThinkPad Universal USB-C Dock",
+        "brand": "Lenovo",
+        "identifiers": {
+          "mpn": "40AY0090US",
+          "upc": "030469533252"
+        },
+        "category": {
+          "code": "DOCK",
+          "label": "Docking Stations"
+        },
+        "long_description": "USB-C host connection, up to 3 displays, 100 W power delivery.",
+        "attributes": [
+          {
+            "name": "connector",
+            "value": "USB-C"
+          },
+          {
+            "name": "max_displays",
+            "value": 3
+          },
+          {
+            "name": "power_delivery_w",
+            "value": 100
+          },
+          {
+            "name": "thunderbolt",
+            "value": false
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 223.98,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "discontinued",
+        "quantity": 0,
+        "lead_time_days": null
+      },
+      "logistics": {
+        "delivery_window": null,
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 3.12,
+        "count": 131,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 36
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20081",
+        "name": "Yubico YubiKey 5 NFC Security Key",
+        "brand": "Yubico",
+        "identifiers": {
+          "mpn": "5060408461426",
+          "upc": "004950666965"
+        },
+        "category": {
+          "code": "ACC",
+          "label": "Accessories"
+        },
+        "long_description": "Yubico YubiKey 5 NFC Security Key.",
+        "attributes": [
+          {
+            "name": "interfaces",
+            "value": "USB-A / NFC"
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 48.93,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 42,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 4.23,
+        "count": 200,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20084",
+        "name": "Epson EcoTank ET-4850 Color All-in-One",
+        "brand": "Epson",
+        "identifiers": {
+          "mpn": "C11CJ60201",
+          "upc": "066636271320"
+        },
+        "category": {
+          "code": "PRN",
+          "label": "Printers"
+        },
+        "long_description": "Color inkjet, automatic duplex, Ethernet / Wi-Fi.",
+        "attributes": [
+          {
+            "name": "type",
+            "value": "inkjet"
+          },
+          {
+            "name": "color",
+            "value": true
+          },
+          {
+            "name": "duplex",
+            "value": true
+          },
+          {
+            "name": "network",
+            "value": "Ethernet / Wi-Fi"
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 475.2,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 233,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": null,
+      "policies": {
+        "return_days": 0,
+        "warranty_months": 36
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20087",
+        "name": "TS4 Thunderbolt 4 Dock 18 ports | CalDigit",
+        "brand": "CalDigit",
+        "identifiers": {
+          "mpn": "TS4",
+          "upc": "005831029565"
+        },
+        "category": {
+          "code": "DOCK",
+          "label": "Docking Stations"
+        },
+        "long_description": "Thunderbolt 4 host connection, up to 2 displays, 98 W power delivery.",
+        "attributes": [
+          {
+            "name": "connector",
+            "value": "Thunderbolt 4"
+          },
+          {
+            "name": "max_displays",
+            "value": 2
+          },
+          {
+            "name": "power_delivery_w",
+            "value": 98
+          },
+          {
+            "name": "thunderbolt",
+            "value": true
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 419.09,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 268,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": {
+        "average": 3.69,
+        "count": 94,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20090",
+        "name": "AOC Q27P2CA 27 in. QHD USB-C Monitor",
+        "brand": "AOC",
+        "identifiers": {
+          "mpn": "Q27P2CA",
+          "upc": "043315566519"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "27-inch IPS panel, 2560x1440 at 75 Hz, USB-C input with power delivery.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 27
+          },
+          {
+            "name": "resolution",
+            "value": "2560x1440"
+          },
+          {
+            "name": "panel",
+            "value": "IPS"
+          },
+          {
+            "name": "usb_c",
+            "value": true
+          },
+          {
+            "name": "refresh_hz",
+            "value": 75
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 269.3,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 55,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 4.2,
+        "count": 70,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20093",
+        "name": "Flexispot E7 Pro Electric Standing Desk 60x30 Black",
+        "brand": "Flexispot",
+        "identifiers": {
+          "mpn": "E7 60 BLK",
+          "upc": "036407983578"
+        },
+        "category": {
+          "code": "FURN-DK",
+          "label": "Office Furniture / Desks"
+        },
+        "long_description": "60x30 in top, electric height range 22.8-48.4 in.",
+        "attributes": [
+          {
+            "name": "width_in",
+            "value": 60
+          },
+          {
+            "name": "depth_in",
+            "value": 30
+          },
+          {
+            "name": "electric",
+            "value": true
+          },
+          {
+            "name": "height_range_in",
+            "value": "22.8-48.4"
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 534.01,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "low_stock",
+        "quantity": 5,
+        "lead_time_days": 5
+      },
+      "logistics": {
+        "delivery_window": "5-7 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 4.88,
+        "count": 109,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20096",
+        "name": "Poly 2200-87070-001 - Studio P5 Webcam 1080p",
+        "brand": "Poly",
+        "identifiers": {
+          "mpn": "2200-87070-001",
+          "upc": "068017155885"
+        },
+        "category": {
+          "code": "VID-CAM",
+          "label": "Video / Webcams"
+        },
+        "long_description": "1080p at 30 fps with privacy shutter.",
+        "attributes": [
+          {
+            "name": "resolution",
+            "value": "1080p"
+          },
+          {
+            "name": "fps",
+            "value": 30
+          },
+          {
+            "name": "privacy_shutter",
+            "value": true
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 87.93,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "low_stock",
+        "quantity": 4,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": {
+        "average": 4.76,
+        "count": 121,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 12
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20099",
+        "name": "Fellowes 0007901 - Lotus Sit-Stand Workstation",
+        "brand": "Fellowes",
+        "identifiers": {
+          "mpn": "0007901",
+          "upc": "090037829781"
+        },
+        "category": {
+          "code": "FURN-DK",
+          "label": "Office Furniture / Desks"
+        },
+        "long_description": "Fellowes Lotus Sit-Stand Workstation.",
+        "attributes": [
+          {
+            "name": "width_in",
+            "value": 32.75
+          },
+          {
+            "name": "electric",
+            "value": false
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 366.91,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 357,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 4.26,
+        "count": 311,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 0,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20102",
+        "name": "Rain Design 10032 - mStand Laptop Stand Silver",
+        "brand": "Rain Design",
+        "identifiers": {
+          "mpn": "10032",
+          "upc": "084016508422"
+        },
+        "category": {
+          "code": "ACC-STD",
+          "label": "Accessories / Laptop Stands"
+        },
+        "long_description": "Rain Design mStand Laptop Stand Silver.",
+        "attributes": [
+          {
+            "name": "adjustable",
+            "value": false
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 47.58,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 352,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 3.97,
+        "count": 266,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20105",
+        "name": "Humanscale M2.1 Single Monitor Arm",
+        "brand": "Humanscale",
+        "identifiers": {
+          "mpn": "M21",
+          "upc": "026642340700"
+        },
+        "category": {
+          "code": "FURN-ARM",
+          "label": "Office Furniture / Monitor Mounts"
+        },
+        "long_description": "Holds 1 display(s) up to 32 in / 15 lb each.",
+        "attributes": [
+          {
+            "name": "displays",
+            "value": 1
+          },
+          {
+            "name": "max_size_in",
+            "value": 32
+          },
+          {
+            "name": "max_weight_lb",
+            "value": 15
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 256.91,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "low_stock",
+        "quantity": 1,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 4.75,
+        "count": 43,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 0,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20108",
+        "name": "HP 58A Black Original LaserJet Toner Cartridge",
+        "brand": "HP",
+        "identifiers": {
+          "mpn": "CF258A",
+          "upc": "015013250984"
+        },
+        "category": {
+          "code": "PRN-SUP",
+          "label": "Printers / Supplies"
+        },
+        "long_description": "HP 58A Black Original LaserJet Toner Cartridge.",
+        "attributes": [
+          {
+            "name": "yield_pages",
+            "value": 3000
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 109.12,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 326,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 3.02,
+        "count": 397,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 12
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20111",
+        "name": "Fellowes 8037601 - Professional Series Back Support",
+        "brand": "Fellowes",
+        "identifiers": {
+          "mpn": "8037601",
+          "upc": "059089037124"
+        },
+        "category": {
+          "code": "ACC",
+          "label": "Accessories"
+        },
+        "long_description": "Fellowes Professional Series Back Support.",
+        "attributes": []
+      },
+      "pricing": {
+        "amount": 43.21,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 309,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": {
+        "average": 3.36,
+        "count": 133,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 25
+    },
+    {
+      "product": {
+        "id": "TS20114",
+        "name": "LX Dual Side-by-Side Monitor Arm | Ergotron",
+        "brand": "Ergotron",
+        "identifiers": {
+          "mpn": "45245026",
+          "upc": "080582841130"
+        },
+        "category": {
+          "code": "FURN-ARM",
+          "label": "Office Furniture / Monitor Mounts"
+        },
+        "long_description": "Holds 2 display(s) up to 27 in / 20 lb each.",
+        "attributes": [
+          {
+            "name": "displays",
+            "value": 2
+          },
+          {
+            "name": "max_size_in",
+            "value": 27
+          },
+          {
+            "name": "max_weight_lb",
+            "value": 20
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 358.2,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 325,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 4.96,
+        "count": 238,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20117",
+        "name": "LaserJet Pro M404dn Mono Laser Printer | HP",
+        "brand": "HP",
+        "identifiers": {
+          "mpn": "W1A53A",
+          "upc": "004780042908"
+        },
+        "category": {
+          "code": "PRN",
+          "label": "Printers"
+        },
+        "long_description": "Monochrome laser, automatic duplex, Ethernet.",
+        "attributes": [
+          {
+            "name": "type",
+            "value": "laser"
+          },
+          {
+            "name": "color",
+            "value": false
+          },
+          {
+            "name": "duplex",
+            "value": true
+          },
+          {
+            "name": "network",
+            "value": "Ethernet"
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 316.9,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 217,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 3.54,
+        "count": 262,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20120",
+        "name": "UltraGear 27GN800-B 27\" QHD 144Hz Gaming Monitor | LG",
+        "brand": "LG",
+        "identifiers": {
+          "mpn": "27gn800-b",
+          "upc": "049609762148"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "27-inch IPS panel, 2560x1440 at 144 Hz.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 27
+          },
+          {
+            "name": "resolution",
+            "value": "2560x1440"
+          },
+          {
+            "name": "panel",
+            "value": "IPS"
+          },
+          {
+            "name": "usb_c",
+            "value": false
+          },
+          {
+            "name": "refresh_hz",
+            "value": 144
+          },
+          {
+            "name": "gaming",
+            "value": true
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 327.94,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 124,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": null,
+      "policies": {
+        "return_days": 0,
+        "warranty_months": 36
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20123",
+        "name": "MacBook Pro 14-inch M1 Pro 16GB 512GB Space Grey | Apple",
+        "brand": "Apple",
+        "identifiers": {
+          "mpn": "MKGP3LL/A",
+          "upc": "053188935831"
+        },
+        "category": {
+          "code": "NB",
+          "label": "Laptops"
+        },
+        "long_description": "14.2\" display, Apple M1 Pro, 16 GB RAM, 512 GB SSD.",
+        "attributes": [
+          {
+            "name": "screen_in",
+            "value": 14.2
+          },
+          {
+            "name": "cpu",
+            "value": "Apple M1 Pro"
+          },
+          {
+            "name": "ram_gb",
+            "value": 16
+          },
+          {
+            "name": "ssd_gb",
+            "value": 512
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 1972.66,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 219,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": {
+        "average": 4.73,
+        "count": 98,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 0,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20126",
+        "name": "Fellowes Standard Footrest",
+        "brand": "Fellowes",
+        "identifiers": {
+          "mpn": "48121",
+          "upc": "059830077454"
+        },
+        "category": {
+          "code": "ACC",
+          "label": "Accessories"
+        },
+        "long_description": "Fellowes Standard Footrest.",
+        "attributes": []
+      },
+      "pricing": {
+        "amount": 30.75,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 59,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 4.54,
+        "count": 150,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20129",
+        "name": "UniFi 6 Lite Access Point | Ubiquiti",
+        "brand": "Ubiquiti",
+        "identifiers": {
+          "mpn": "U6-LITE-US",
+          "upc": "002789551445"
+        },
+        "category": {
+          "code": "NET",
+          "label": "Networking"
+        },
+        "long_description": "Ubiquiti UniFi 6 Lite Access Point.",
+        "attributes": [
+          {
+            "name": "wifi",
+            "value": "Wi-Fi 6"
+          },
+          {
+            "name": "poe",
+            "value": true
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 99.27,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 325,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 4.95,
+        "count": 126,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20132",
+        "name": "Lenovo 21HM0005US - ThinkPad X1 Carbon Gen 11 14\" i7 16GB 512GB",
+        "brand": "Lenovo",
+        "identifiers": {
+          "mpn": "21HM0005US",
+          "upc": "032792534418"
+        },
+        "category": {
+          "code": "NB",
+          "label": "Laptops"
+        },
+        "long_description": "14\" display, Intel Core i7-1355U, 16 GB RAM, 512 GB SSD.",
+        "attributes": [
+          {
+            "name": "screen_in",
+            "value": 14
+          },
+          {
+            "name": "cpu",
+            "value": "Intel Core i7-1355U"
+          },
+          {
+            "name": "ram_gb",
+            "value": 16
+          },
+          {
+            "name": "ssd_gb",
+            "value": 512
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 1946.14,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "low_stock",
+        "quantity": 1,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": {
+        "average": 4.49,
+        "count": 46,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20135",
+        "name": "HP 6N6E9AA - E24 G5 24\" FHD Monitor",
+        "brand": "HP",
+        "identifiers": {
+          "mpn": "6N6E9AA",
+          "upc": "048226557953"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "24-inch IPS panel, 1920x1080 at 75 Hz.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 24
+          },
+          {
+            "name": "resolution",
+            "value": "1920x1080"
+          },
+          {
+            "name": "panel",
+            "value": "IPS"
+          },
+          {
+            "name": "usb_c",
+            "value": false
+          },
+          {
+            "name": "refresh_hz",
+            "value": 75
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 221.62,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 353,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": {
+        "average": 3.96,
+        "count": 248,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20138",
+        "name": "Poly 207576-01 - Blackwire 5220 Stereo Wired Headset USB-A / 3.5mm",
+        "brand": "Poly",
+        "identifiers": {
+          "mpn": "207576-01",
+          "upc": "095331987977"
+        },
+        "category": {
+          "code": "AUD-HS",
+          "label": "Audio / Headsets"
+        },
+        "long_description": "Wired USB-A, UC certified.",
+        "attributes": [
+          {
+            "name": "connection",
+            "value": "Wired USB-A"
+          },
+          {
+            "name": "wireless",
+            "value": false
+          },
+          {
+            "name": "anc",
+            "value": false
+          },
+          {
+            "name": "uc_certified",
+            "value": "UC"
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 87.83,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 283,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 3.05,
+        "count": 308,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 12
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20141",
+        "name": "Plugable UD-3900 USB 3.0 Universal Docking Station",
+        "brand": "Plugable",
+        "identifiers": {
+          "mpn": "UD 3900",
+          "upc": "008412044674"
+        },
+        "category": {
+          "code": "DOCK",
+          "label": "Docking Stations"
+        },
+        "long_description": "USB-A host connection, up to 2 displays, 0 W power delivery.",
+        "attributes": [
+          {
+            "name": "connector",
+            "value": "USB-A"
+          },
+          {
+            "name": "max_displays",
+            "value": 2
+          },
+          {
+            "name": "power_delivery_w",
+            "value": 0
+          },
+          {
+            "name": "thunderbolt",
+            "value": false
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 110.09,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 286,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 3.2,
+        "count": 322,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20144",
+        "name": "Brio 500 Full HD Webcam | Logitech",
+        "brand": "Logitech",
+        "identifiers": {
+          "mpn": "960-001494",
+          "upc": "033899205997"
+        },
+        "category": {
+          "code": "VID-CAM",
+          "label": "Video / Webcams"
+        },
+        "long_description": "1080p at 30 fps with privacy shutter.",
+        "attributes": [
+          {
+            "name": "resolution",
+            "value": "1080p"
+          },
+          {
+            "name": "fps",
+            "value": 30
+          },
+          {
+            "name": "privacy_shutter",
+            "value": true
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 137.97,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "backorder",
+        "quantity": 0,
+        "lead_time_days": 35
+      },
+      "logistics": {
+        "delivery_window": "5-6 weeks",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 3.77,
+        "count": 53,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 12
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20147",
+        "name": "Dell WB7022 - UltraSharp Webcam WB7022 4K",
+        "brand": "Dell",
+        "identifiers": {
+          "mpn": "WB7022",
+          "upc": "094536065138"
+        },
+        "category": {
+          "code": "VID-CAM",
+          "label": "Video / Webcams"
+        },
+        "long_description": "4K at 30 fps with privacy shutter.",
+        "attributes": [
+          {
+            "name": "resolution",
+            "value": "4K"
+          },
+          {
+            "name": "fps",
+            "value": 30
+          },
+          {
+            "name": "privacy_shutter",
+            "value": true
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 198.74,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 239,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 4.68,
+        "count": 147,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 12
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20150",
+        "name": "USB-C Dock G5 | HP",
+        "brand": "HP",
+        "identifiers": {
+          "mpn": "5TW10AA",
+          "upc": "015623048506"
+        },
+        "category": {
+          "code": "DOCK",
+          "label": "Docking Stations"
+        },
+        "long_description": "USB-C host connection, up to 3 displays, 100 W power delivery.",
+        "attributes": [
+          {
+            "name": "connector",
+            "value": "USB-C"
+          },
+          {
+            "name": "max_displays",
+            "value": 3
+          },
+          {
+            "name": "power_delivery_w",
+            "value": 100
+          },
+          {
+            "name": "thunderbolt",
+            "value": false
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 186.02,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 393,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 138,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 0,
+        "warranty_months": 36
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20153",
+        "name": "Amazon Basics Ventilated Adjustable Laptop Stand",
+        "brand": "Amazon Basics",
+        "identifiers": {
+          "mpn": "B07D74DT3B",
+          "upc": "034387695733"
+        },
+        "category": {
+          "code": "ACC-STD",
+          "label": "Accessories / Laptop Stands"
+        },
+        "long_description": "Amazon Basics Ventilated Adjustable Laptop Stand.",
+        "attributes": [
+          {
+            "name": "adjustable",
+            "value": true
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 31.19,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 101,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 3.11,
+        "count": 167,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 0,
+        "warranty_months": 36
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20156",
+        "name": "Lenovo ThinkVision T27h-30 27 in. QHD USB-C Monitor",
+        "brand": "Lenovo",
+        "identifiers": {
+          "mpn": "63a3gar1us",
+          "upc": "038598387470"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "27-inch IPS panel, 2560x1440 at 75 Hz, USB-C input with power delivery.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 27
+          },
+          {
+            "name": "resolution",
+            "value": "2560x1440"
+          },
+          {
+            "name": "panel",
+            "value": "IPS"
+          },
+          {
+            "name": "usb_c",
+            "value": true
+          },
+          {
+            "name": "refresh_hz",
+            "value": 75
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 420.34,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 357,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": null,
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20159",
+        "name": "Brother TN-760 High Yield Black Toner",
+        "brand": "Brother",
+        "identifiers": {
+          "mpn": "TN760",
+          "upc": "048640505141"
+        },
+        "category": {
+          "code": "PRN-SUP",
+          "label": "Printers / Supplies"
+        },
+        "long_description": "Brother TN-760 High Yield Black Toner.",
+        "attributes": [
+          {
+            "name": "yield_pages",
+            "value": 3000
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 76.69,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 238,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 4.12,
+        "count": 333,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 0,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20162",
+        "name": "GW2790QT 27\" QHD Eye-Care USB-C Monitor | BenQ",
+        "brand": "BenQ",
+        "identifiers": {
+          "mpn": "gw2790qt",
+          "upc": "070667571359"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "27-inch IPS panel, 2560x1440 at 75 Hz, USB-C input with power delivery.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 27
+          },
+          {
+            "name": "resolution",
+            "value": "2560x1440"
+          },
+          {
+            "name": "panel",
+            "value": "IPS"
+          },
+          {
+            "name": "usb_c",
+            "value": true
+          },
+          {
+            "name": "refresh_hz",
+            "value": 75
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 317.18,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "backorder",
+        "quantity": 0,
+        "lead_time_days": 35
+      },
+      "logistics": {
+        "delivery_window": "5-6 weeks",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 3.99,
+        "count": 272,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20165",
+        "name": "Jabra 26599-989-999 - Evolve2 65 UC Stereo Wireless Headset USB-A",
+        "brand": "Jabra",
+        "identifiers": {
+          "mpn": "26599-989-999",
+          "upc": "068436532205"
+        },
+        "category": {
+          "code": "AUD-HS",
+          "label": "Audio / Headsets"
+        },
+        "long_description": "Bluetooth / USB-A dongle, UC certified.",
+        "attributes": [
+          {
+            "name": "connection",
+            "value": "Bluetooth / USB-A dongle"
+          },
+          {
+            "name": "wireless",
+            "value": true
+          },
+          {
+            "name": "anc",
+            "value": false
+          },
+          {
+            "name": "uc_certified",
+            "value": "UC"
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 255.28,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 30,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 4.14,
+        "count": 397,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 0,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20168",
+        "name": "Logitech 910-006231 - Signature M650 L Wireless Mouse",
+        "brand": "Logitech",
+        "identifiers": {
+          "mpn": "910 006231",
+          "upc": "047308312169"
+        },
+        "category": {
+          "code": "INP-MS",
+          "label": "Input Devices / Mice"
+        },
+        "long_description": "Bluetooth / Logi Bolt connectivity.",
+        "attributes": [
+          {
+            "name": "connection",
+            "value": "Bluetooth / Logi Bolt"
+          },
+          {
+            "name": "ergonomic",
+            "value": false
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 40.27,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 231,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 3.03,
+        "count": 246,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20171",
+        "name": "Microsoft R1S-00001 - Surface Laptop 5 13.5\" i5 8GB 256GB Platinum",
+        "brand": "Microsoft",
+        "identifiers": {
+          "mpn": "R1S 00001",
+          "upc": "061968623076"
+        },
+        "category": {
+          "code": "NB",
+          "label": "Laptops"
+        },
+        "long_description": "13.5\" display, Intel Core i5-1235U, 8 GB RAM, 256 GB SSD.",
+        "attributes": [
+          {
+            "name": "screen_in",
+            "value": 13.5
+          },
+          {
+            "name": "cpu",
+            "value": "Intel Core i5-1235U"
+          },
+          {
+            "name": "ram_gb",
+            "value": 8
+          },
+          {
+            "name": "ssd_gb",
+            "value": 256
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 1046.47,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 114,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": null,
+      "policies": {
+        "return_days": 0,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20174",
+        "name": "27QN600-B 27\" QHD IPS Monitor | LG",
+        "brand": "LG",
+        "identifiers": {
+          "mpn": "27qn600-b",
+          "upc": "076846328097"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "27-inch IPS panel, 2560x1440 at 75 Hz.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 27
+          },
+          {
+            "name": "resolution",
+            "value": "2560x1440"
+          },
+          {
+            "name": "panel",
+            "value": "IPS"
+          },
+          {
+            "name": "usb_c",
+            "value": false
+          },
+          {
+            "name": "refresh_hz",
+            "value": 75
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 249.75,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "low_stock",
+        "quantity": 2,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 3.84,
+        "count": 130,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20177",
+        "name": "Jarvis Bamboo Standing Desk 60x30 | Fully",
+        "brand": "Fully",
+        "identifiers": {
+          "mpn": "JRV-BAM-6030",
+          "upc": "091395296857"
+        },
+        "category": {
+          "code": "FURN-DK",
+          "label": "Office Furniture / Desks"
+        },
+        "long_description": "60x30 in top, electric height range 24.5-50 in.",
+        "attributes": [
+          {
+            "name": "width_in",
+            "value": 60
+          },
+          {
+            "name": "depth_in",
+            "value": 30
+          },
+          {
+            "name": "electric",
+            "value": true
+          },
+          {
+            "name": "height_range_in",
+            "value": "24.5-50"
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 737.49,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "backorder",
+        "quantity": 0,
+        "lead_time_days": 35
+      },
+      "logistics": {
+        "delivery_window": "5-6 weeks",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": null,
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20180",
+        "name": "Dell D6000 Universal Dock",
+        "brand": "Dell",
+        "identifiers": {
+          "mpn": "D6000",
+          "upc": "017001907030"
+        },
+        "category": {
+          "code": "DOCK",
+          "label": "Docking Stations"
+        },
+        "long_description": "USB-C / USB-A host connection, up to 3 displays, 65 W power delivery.",
+        "attributes": [
+          {
+            "name": "connector",
+            "value": "USB-C / USB-A"
+          },
+          {
+            "name": "max_displays",
+            "value": 3
+          },
+          {
+            "name": "power_delivery_w",
+            "value": 65
+          },
+          {
+            "name": "thunderbolt",
+            "value": false
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 208.3,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 269,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 3.4,
+        "count": 72,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 0,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20183",
+        "name": "Logitech C920s HD Pro Webcam 1080p",
+        "brand": "Logitech",
+        "identifiers": {
+          "mpn": "960-001257",
+          "upc": "033681971406"
+        },
+        "category": {
+          "code": "VID-CAM",
+          "label": "Video / Webcams"
+        },
+        "long_description": "1080p at 30 fps with privacy shutter.",
+        "attributes": [
+          {
+            "name": "resolution",
+            "value": "1080p"
+          },
+          {
+            "name": "fps",
+            "value": 30
+          },
+          {
+            "name": "privacy_shutter",
+            "value": true
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 70.13,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 307,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 3.86,
+        "count": 344,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20186",
+        "name": "Anker 563 USB-C Docking Station 10-in-1",
+        "brand": "Anker",
+        "identifiers": {
+          "mpn": "A8397",
+          "upc": "089085037873"
+        },
+        "category": {
+          "code": "DOCK",
+          "label": "Docking Stations"
+        },
+        "long_description": "USB-C host connection, up to 3 displays, 65 W power delivery.",
+        "attributes": [
+          {
+            "name": "connector",
+            "value": "USB-C"
+          },
+          {
+            "name": "max_displays",
+            "value": 3
+          },
+          {
+            "name": "power_delivery_w",
+            "value": 65
+          },
+          {
+            "name": "thunderbolt",
+            "value": false
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 191.52,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 283,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": {
+        "average": 4.74,
+        "count": 307,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20189",
+        "name": "Belkin 12-Outlet Surge Protector 8ft 3940J",
+        "brand": "Belkin",
+        "identifiers": {
+          "mpn": "BE112230-08",
+          "upc": "030466043723"
+        },
+        "category": {
+          "code": "PWR",
+          "label": "Power"
+        },
+        "long_description": "Belkin 12-Outlet Surge Protector 8ft 3940J.",
+        "attributes": [
+          {
+            "name": "outlets",
+            "value": 12
+          },
+          {
+            "name": "joules",
+            "value": 3940
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 33.57,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 61,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 4.55,
+        "count": 149,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20192",
+        "name": "Plugable UD-6950PDZ USB-C Triple Display Dock 100W",
+        "brand": "Plugable",
+        "identifiers": {
+          "mpn": "UD-6950PDZ",
+          "upc": "004773117200"
+        },
+        "category": {
+          "code": "DOCK",
+          "label": "Docking Stations"
+        },
+        "long_description": "USB-C host connection, up to 3 displays, 100 W power delivery.",
+        "attributes": [
+          {
+            "name": "connector",
+            "value": "USB-C"
+          },
+          {
+            "name": "max_displays",
+            "value": 3
+          },
+          {
+            "name": "power_delivery_w",
+            "value": 100
+          },
+          {
+            "name": "thunderbolt",
+            "value": false
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 246.79,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 99,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 4.47,
+        "count": 358,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 12
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20195",
+        "name": "Lenovo 62B1GAT1US - ThinkVision T27i-30 27\" FHD Monitor",
+        "brand": "Lenovo",
+        "identifiers": {
+          "mpn": "62B1GAT1US",
+          "upc": "067120382331"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "27-inch IPS panel, 1920x1080 at 60 Hz.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 27
+          },
+          {
+            "name": "resolution",
+            "value": "1920x1080"
+          },
+          {
+            "name": "panel",
+            "value": "IPS"
+          },
+          {
+            "name": "usb_c",
+            "value": false
+          },
+          {
+            "name": "refresh_hz",
+            "value": 60
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 216.3,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 298,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": {
+        "average": 4.76,
+        "count": 89,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 12
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20198",
+        "name": "Targus DOCK190USZ - Universal USB-C DV4K Docking Station 100W",
+        "brand": "Targus",
+        "identifiers": {
+          "mpn": "DOCK190USZ",
+          "upc": "080331503494"
+        },
+        "category": {
+          "code": "DOCK",
+          "label": "Docking Stations"
+        },
+        "long_description": "USB-C host connection, up to 2 displays, 100 W power delivery.",
+        "attributes": [
+          {
+            "name": "connector",
+            "value": "USB-C"
+          },
+          {
+            "name": "max_displays",
+            "value": 2
+          },
+          {
+            "name": "power_delivery_w",
+            "value": 100
+          },
+          {
+            "name": "thunderbolt",
+            "value": false
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 226.38,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 357,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": {
+        "average": 3.37,
+        "count": 238,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 36
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20201",
+        "name": "Lenovo 63A1GAR1US - ThinkVision P27h-30 27\" QHD USB-C Monitor",
+        "brand": "Lenovo",
+        "identifiers": {
+          "mpn": "63A1GAR1US",
+          "upc": "040192469384"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "27-inch IPS panel, 2560x1440 at 60 Hz, USB-C input with power delivery.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 27
+          },
+          {
+            "name": "resolution",
+            "value": "2560x1440"
+          },
+          {
+            "name": "panel",
+            "value": "IPS"
+          },
+          {
+            "name": "usb_c",
+            "value": true
+          },
+          {
+            "name": "refresh_hz",
+            "value": 60
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 485.4,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 396,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 3.38,
+        "count": 73,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 12
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20204",
+        "name": "Samsung ViewFinity S8 S27B800 27\" 4K USB-C Monitor",
+        "brand": "Samsung",
+        "identifiers": {
+          "mpn": "LS27B800PXNXGO",
+          "upc": "088742452943"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "27-inch IPS panel, 3840x2160 at 60 Hz, USB-C input with power delivery.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 27
+          },
+          {
+            "name": "resolution",
+            "value": "3840x2160"
+          },
+          {
+            "name": "panel",
+            "value": "IPS"
+          },
+          {
+            "name": "usb_c",
+            "value": true
+          },
+          {
+            "name": "refresh_hz",
+            "value": 60
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 559.93,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 34,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 374,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 0,
+        "warranty_months": 36
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20207",
+        "name": "575 USB-C Docking Station 13-in-1 | Anker",
+        "brand": "Anker",
+        "identifiers": {
+          "mpn": "A8392",
+          "upc": "012857723438"
+        },
+        "category": {
+          "code": "DOCK",
+          "label": "Docking Stations"
+        },
+        "long_description": "USB-C host connection, up to 3 displays, 85 W power delivery.",
+        "attributes": [
+          {
+            "name": "connector",
+            "value": "USB-C"
+          },
+          {
+            "name": "max_displays",
+            "value": 3
+          },
+          {
+            "name": "power_delivery_w",
+            "value": 85
+          },
+          {
+            "name": "thunderbolt",
+            "value": false
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 252.41,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 240,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": {
+        "average": 4.08,
+        "count": 214,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 0,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20210",
+        "name": "HON HONI2M2AMLC10TK - Ignition 2.0 Mid-Back Mesh Task Chair",
+        "brand": "HON",
+        "identifiers": {
+          "mpn": "HONI2M2AMLC10TK",
+          "upc": "076047239253"
+        },
+        "category": {
+          "code": "FURN-CH",
+          "label": "Office Furniture / Chairs"
+        },
+        "long_description": "HON Ignition 2.0 Mid-Back Mesh Task Chair.",
+        "attributes": [
+          {
+            "name": "adjustable_arms",
+            "value": true
+          },
+          {
+            "name": "lumbar",
+            "value": true
+          },
+          {
+            "name": "weight_capacity_lb",
+            "value": 300
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 350.46,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 334,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 3.32,
+        "count": 347,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20213",
+        "name": "SanDisk Extreme Pro Portable SSD 2TB",
+        "brand": "SanDisk",
+        "identifiers": {
+          "mpn": "SDSSDE81-2T00-G25",
+          "upc": "026530203742"
+        },
+        "category": {
+          "code": "STO",
+          "label": "Storage"
+        },
+        "long_description": "2000 GB, USB-C 3.2.",
+        "attributes": [
+          {
+            "name": "capacity_gb",
+            "value": 2000
+          },
+          {
+            "name": "interface",
+            "value": "USB-C 3.2"
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 201.2,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 50,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 4.63,
+        "count": 201,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 36
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20216",
+        "name": "Dell U3423WE - UltraSharp U3423WE 34\" Curved USB-C Hub Monitor",
+        "brand": "Dell",
+        "identifiers": {
+          "mpn": "U3423WE",
+          "upc": "015589139911"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "34-inch IPS panel, 3440x1440 at 60 Hz, USB-C input with power delivery.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 34
+          },
+          {
+            "name": "resolution",
+            "value": "3440x1440"
+          },
+          {
+            "name": "panel",
+            "value": "IPS"
+          },
+          {
+            "name": "usb_c",
+            "value": true
+          },
+          {
+            "name": "refresh_hz",
+            "value": 60
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 902.65,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 252,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 3.96,
+        "count": 314,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20219",
+        "name": "Acer UM.HB7AA.E01 - Vero B277 27\" FHD Monitor",
+        "brand": "Acer",
+        "identifiers": {
+          "mpn": "UM.HB7AA.E01",
+          "upc": "021320956853"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "27-inch IPS panel, 1920x1080 at 75 Hz.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 27
+          },
+          {
+            "name": "resolution",
+            "value": "1920x1080"
+          },
+          {
+            "name": "panel",
+            "value": "IPS"
+          },
+          {
+            "name": "usb_c",
+            "value": false
+          },
+          {
+            "name": "refresh_hz",
+            "value": 75
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 213.62,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 289,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 4.18,
+        "count": 126,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20222",
+        "name": "DisplayPort 1.2 Cable 6ft | Tripp Lite",
+        "brand": "Tripp Lite",
+        "identifiers": {
+          "mpn": "p580-006",
+          "upc": "037959263743"
+        },
+        "category": {
+          "code": "CAB",
+          "label": "Cables"
+        },
+        "long_description": "6 ft, DP 1.2 4K60.",
+        "attributes": [
+          {
+            "name": "length_ft",
+            "value": 6
+          },
+          {
+            "name": "pack_qty",
+            "value": 1
+          },
+          {
+            "name": "spec",
+            "value": "DP 1.2 4K60"
+          }
+        ]
+      },
+      "pricing": null,
+      "availability": {
+        "status": "on_request",
+        "quantity": null,
+        "lead_time_days": null
+      },
+      "logistics": {
+        "delivery_window": null,
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 4.91,
+        "count": 343,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 12
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20225",
+        "name": "Dell LAT5540-I5-16-256 - Latitude 5540 15.6\" i5 16GB 256GB",
+        "brand": "Dell",
+        "identifiers": {
+          "mpn": "LAT5540I516256",
+          "upc": "057117887154"
+        },
+        "category": {
+          "code": "NB",
+          "label": "Laptops"
+        },
+        "long_description": "15.6\" display, Intel Core i5-1335U, 16 GB RAM, 256 GB SSD.",
+        "attributes": [
+          {
+            "name": "screen_in",
+            "value": 15.6
+          },
+          {
+            "name": "cpu",
+            "value": "Intel Core i5-1335U"
+          },
+          {
+            "name": "ram_gb",
+            "value": 16
+          },
+          {
+            "name": "ssd_gb",
+            "value": 256
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 1187.03,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 24,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 4.89,
+        "count": 214,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 36
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20228",
+        "name": "Logitech Spotlight Presentation Remote",
+        "brand": "Logitech",
+        "identifiers": {
+          "mpn": "910-004654",
+          "upc": "032342846183"
+        },
+        "category": {
+          "code": "ACC",
+          "label": "Accessories"
+        },
+        "long_description": "Logitech Spotlight Presentation Remote.",
+        "attributes": []
+      },
+      "pricing": {
+        "amount": 132.96,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 333,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 4.44,
+        "count": 330,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 12
+      },
+      "min_order_quantity": 10
+    },
+    {
+      "product": {
+        "id": "TS20231",
+        "name": "SD4700P USB-C / USB-A Hybrid Dock | Kensington",
+        "brand": "Kensington",
+        "identifiers": {
+          "mpn": "K38240NA",
+          "upc": "079749785332"
+        },
+        "category": {
+          "code": "DOCK",
+          "label": "Docking Stations"
+        },
+        "long_description": "USB-C / USB-A host connection, up to 2 displays, 60 W power delivery.",
+        "attributes": [
+          {
+            "name": "connector",
+            "value": "USB-C / USB-A"
+          },
+          {
+            "name": "max_displays",
+            "value": 2
+          },
+          {
+            "name": "power_delivery_w",
+            "value": 60
+          },
+          {
+            "name": "thunderbolt",
+            "value": false
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 208.99,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 314,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": null,
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20234",
+        "name": "P2723DE 27\" QHD USB-C Hub Monitor | Dell",
+        "brand": "Dell",
+        "identifiers": {
+          "mpn": "P2723DE",
+          "upc": "018395095464"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "27-inch IPS panel, 2560x1440 at 60 Hz, USB-C input with power delivery.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 27
+          },
+          {
+            "name": "resolution",
+            "value": "2560x1440"
+          },
+          {
+            "name": "panel",
+            "value": "IPS"
+          },
+          {
+            "name": "usb_c",
+            "value": true
+          },
+          {
+            "name": "refresh_hz",
+            "value": 60
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 402.96,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 47,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 4.67,
+        "count": 337,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 12
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20237",
+        "name": "Jabra Evolve2 55 UC Stereo Wireless Headset",
+        "brand": "Jabra",
+        "identifiers": {
+          "mpn": "25599-989-999",
+          "upc": "056803041979"
+        },
+        "category": {
+          "code": "AUD-HS",
+          "label": "Audio / Headsets"
+        },
+        "long_description": "Bluetooth / USB-A dongle, active noise cancelling, UC certified.",
+        "attributes": [
+          {
+            "name": "connection",
+            "value": "Bluetooth / USB-A dongle"
+          },
+          {
+            "name": "wireless",
+            "value": true
+          },
+          {
+            "name": "anc",
+            "value": true
+          },
+          {
+            "name": "uc_certified",
+            "value": "UC"
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 227.04,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 293,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": {
+        "average": 3.16,
+        "count": 395,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20240",
+        "name": "Brother HL-L2370DW Mono Laser Printer",
+        "brand": "Brother",
+        "identifiers": {
+          "mpn": "HL-L2370DW",
+          "upc": "060342104125"
+        },
+        "category": {
+          "code": "PRN",
+          "label": "Printers"
+        },
+        "long_description": "Monochrome laser, automatic duplex, Ethernet / Wi-Fi.",
+        "attributes": [
+          {
+            "name": "type",
+            "value": "laser"
+          },
+          {
+            "name": "color",
+            "value": false
+          },
+          {
+            "name": "duplex",
+            "value": true
+          },
+          {
+            "name": "network",
+            "value": "Ethernet / Wi-Fi"
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 209.38,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 112,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 4.36,
+        "count": 310,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20243",
+        "name": "Logitech MX Master 3S Wireless Mouse",
+        "brand": "Logitech",
+        "identifiers": {
+          "mpn": "910006556",
+          "upc": "092324415479"
+        },
+        "category": {
+          "code": "INP-MS",
+          "label": "Input Devices / Mice"
+        },
+        "long_description": "Bluetooth / Logi Bolt connectivity, ergonomic design.",
+        "attributes": [
+          {
+            "name": "connection",
+            "value": "Bluetooth / Logi Bolt"
+          },
+          {
+            "name": "ergonomic",
+            "value": true
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 101.33,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 382,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": {
+        "average": 3.22,
+        "count": 246,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 0,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20246",
+        "name": "VIVO Dual Monitor Desk Mount Stand",
+        "brand": "VIVO",
+        "identifiers": {
+          "mpn": "STANDV002",
+          "upc": "034779004761"
+        },
+        "category": {
+          "code": "FURN-ARM",
+          "label": "Office Furniture / Monitor Mounts"
+        },
+        "long_description": "Holds 2 display(s) up to 27 in / 22 lb each.",
+        "attributes": [
+          {
+            "name": "displays",
+            "value": 2
+          },
+          {
+            "name": "max_size_in",
+            "value": 27
+          },
+          {
+            "name": "max_weight_lb",
+            "value": 22
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 39.58,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 65,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 3.65,
+        "count": 216,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 36
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20249",
+        "name": "Belkin Connect Thunderbolt 4 Dock Core",
+        "brand": "Belkin",
+        "identifiers": {
+          "mpn": "inc006ttsgy",
+          "upc": "084876445844"
+        },
+        "category": {
+          "code": "DOCK",
+          "label": "Docking Stations"
+        },
+        "long_description": "Thunderbolt 4 host connection, up to 2 displays, 90 W power delivery.",
+        "attributes": [
+          {
+            "name": "connector",
+            "value": "Thunderbolt 4"
+          },
+          {
+            "name": "max_displays",
+            "value": 2
+          },
+          {
+            "name": "power_delivery_w",
+            "value": 90
+          },
+          {
+            "name": "thunderbolt",
+            "value": true
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 236.73,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 336,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 3.07,
+        "count": 158,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20252",
+        "name": "3M MP114 - Precise Mouse Pad with Gel Wrist Rest",
+        "brand": "3M",
+        "identifiers": {
+          "mpn": "MP114",
+          "upc": "098750625857"
+        },
+        "category": {
+          "code": "ACC",
+          "label": "Accessories"
+        },
+        "long_description": "3M Precise Mouse Pad with Gel Wrist Rest.",
+        "attributes": []
+      },
+      "pricing": {
+        "amount": 21.5,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 82,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 3.92,
+        "count": 38,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20255",
+        "name": "USB-C to DisplayPort 1.4 Cable 6ft 8K | Cable Matters",
+        "brand": "Cable Matters",
+        "identifiers": {
+          "mpn": "201026",
+          "upc": "035574330505"
+        },
+        "category": {
+          "code": "CAB",
+          "label": "Cables"
+        },
+        "long_description": "6 ft, DP 1.4 8K60.",
+        "attributes": [
+          {
+            "name": "length_ft",
+            "value": 6
+          },
+          {
+            "name": "pack_qty",
+            "value": 1
+          },
+          {
+            "name": "spec",
+            "value": "DP 1.4 8K60"
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 25.15,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 314,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 4.84,
+        "count": 270,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 0,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 10
+    },
+    {
+      "product": {
+        "id": "TS20258",
+        "name": "Microsoft Sculpt Ergonomic Desktop Keyboard and Mouse",
+        "brand": "Microsoft",
+        "identifiers": {
+          "mpn": "L5V-00001",
+          "upc": "088277025292"
+        },
+        "category": {
+          "code": "INP-KB",
+          "label": "Input Devices / Keyboards"
+        },
+        "long_description": "USB receiver connectivity, ergonomic design.",
+        "attributes": [
+          {
+            "name": "connection",
+            "value": "USB receiver"
+          },
+          {
+            "name": "ergonomic",
+            "value": true
+          },
+          {
+            "name": "bundle",
+            "value": "keyboard + mouse"
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 133.68,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 133,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 4.91,
+        "count": 361,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20261",
+        "name": "MK540 Advanced Wireless Keyboard and Mouse Combo | Logitech",
+        "brand": "Logitech",
+        "identifiers": {
+          "mpn": "920-008671",
+          "upc": "020619726344"
+        },
+        "category": {
+          "code": "INP-KB",
+          "label": "Input Devices / Keyboards"
+        },
+        "long_description": "USB receiver connectivity.",
+        "attributes": [
+          {
+            "name": "connection",
+            "value": "USB receiver"
+          },
+          {
+            "name": "ergonomic",
+            "value": false
+          },
+          {
+            "name": "bundle",
+            "value": "keyboard + mouse"
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 64.02,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 337,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 3.06,
+        "count": 145,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 36
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20264",
+        "name": "Dell UltraSharp U2422HE 24 in. USB-C Hub Monitor",
+        "brand": "Dell",
+        "identifiers": {
+          "mpn": "U2422HE",
+          "upc": "036532812217"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "24-inch IPS panel, 1920x1080 at 60 Hz, USB-C input with power delivery.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 24
+          },
+          {
+            "name": "resolution",
+            "value": "1920x1080"
+          },
+          {
+            "name": "panel",
+            "value": "IPS"
+          },
+          {
+            "name": "usb_c",
+            "value": true
+          },
+          {
+            "name": "refresh_hz",
+            "value": 60
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 368.23,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "backorder",
+        "quantity": 0,
+        "lead_time_days": 21
+      },
+      "logistics": {
+        "delivery_window": "3-4 weeks",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 3.65,
+        "count": 154,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 0,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20267",
+        "name": "HP E27 G5 27\" FHD Monitor",
+        "brand": "HP",
+        "identifiers": {
+          "mpn": "6N4E2AA",
+          "upc": "052028185658"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "27-inch IPS panel, 1920x1080 at 75 Hz.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 27
+          },
+          {
+            "name": "resolution",
+            "value": "1920x1080"
+          },
+          {
+            "name": "panel",
+            "value": "IPS"
+          },
+          {
+            "name": "usb_c",
+            "value": false
+          },
+          {
+            "name": "refresh_hz",
+            "value": 75
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 275.8,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 69,
+        "lead_time_days": 1
+      },
+      "logistics": {
+        "delivery_window": "1-2 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 4.32,
+        "count": 112,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 36
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20270",
+        "name": "HP 6N4D3AA - E27u G5 27\" QHD USB-C Monitor",
+        "brand": "HP",
+        "identifiers": {
+          "mpn": "6n4d3aa",
+          "upc": "071831193445"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "27-inch IPS panel, 2560x1440 at 75 Hz, USB-C input with power delivery.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 27
+          },
+          {
+            "name": "resolution",
+            "value": "2560x1440"
+          },
+          {
+            "name": "panel",
+            "value": "IPS"
+          },
+          {
+            "name": "usb_c",
+            "value": true
+          },
+          {
+            "name": "refresh_hz",
+            "value": 75
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 372.09,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "backorder",
+        "quantity": 0,
+        "lead_time_days": 45
+      },
+      "logistics": {
+        "delivery_window": "6-8 weeks",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": null,
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 36
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20273",
+        "name": "HUANUO HNDS6 - Dual Monitor Stand Gas Spring",
+        "brand": "HUANUO",
+        "identifiers": {
+          "mpn": "HNDS6",
+          "upc": "094121970427"
+        },
+        "category": {
+          "code": "FURN-ARM",
+          "label": "Office Furniture / Monitor Mounts"
+        },
+        "long_description": "Holds 2 display(s) up to 32 in / 19.8 lb each.",
+        "attributes": [
+          {
+            "name": "displays",
+            "value": 2
+          },
+          {
+            "name": "max_size_in",
+            "value": 32
+          },
+          {
+            "name": "max_weight_lb",
+            "value": 19.8
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 58.98,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 272,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": {
+        "average": 4.1,
+        "count": 322,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 0,
+        "warranty_months": 24
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20276",
+        "name": "Dell P2422H 24\" FHD Monitor",
+        "brand": "Dell",
+        "identifiers": {
+          "mpn": "P2422H",
+          "upc": "099067875225"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "24-inch IPS panel, 1920x1080 at 60 Hz.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 24
+          },
+          {
+            "name": "resolution",
+            "value": "1920x1080"
+          },
+          {
+            "name": "panel",
+            "value": "IPS"
+          },
+          {
+            "name": "usb_c",
+            "value": false
+          },
+          {
+            "name": "refresh_hz",
+            "value": 60
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 233.27,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "low_stock",
+        "quantity": 4,
+        "lead_time_days": 5
+      },
+      "logistics": {
+        "delivery_window": "5-7 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": {
+        "average": 3.13,
+        "count": 344,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 36
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20279",
+        "name": "Back-UPS 600VA 7-Outlet UPS | APC",
+        "brand": "APC",
+        "identifiers": {
+          "mpn": "BE600M1",
+          "upc": "007748229557"
+        },
+        "category": {
+          "code": "PWR",
+          "label": "Power"
+        },
+        "long_description": "APC Back-UPS 600VA 7-Outlet UPS.",
+        "attributes": [
+          {
+            "name": "va",
+            "value": 600
+          },
+          {
+            "name": "outlets",
+            "value": 7
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 86.24,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "backorder",
+        "quantity": 0,
+        "lead_time_days": 35
+      },
+      "logistics": {
+        "delivery_window": "5-6 weeks",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": {
+        "average": 3.19,
+        "count": 76,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20282",
+        "name": "UltraSharp U3223QE 32\" 4K USB-C Hub Monitor | Dell",
+        "brand": "Dell",
+        "identifiers": {
+          "mpn": "U3223QE",
+          "upc": "020845613241"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "32-inch IPS Black panel, 3840x2160 at 60 Hz, USB-C input with power delivery.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 32
+          },
+          {
+            "name": "resolution",
+            "value": "3840x2160"
+          },
+          {
+            "name": "panel",
+            "value": "IPS Black"
+          },
+          {
+            "name": "usb_c",
+            "value": true
+          },
+          {
+            "name": "refresh_hz",
+            "value": 60
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 832.9,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 351,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": {
+        "average": 4.82,
+        "count": 198,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20285",
+        "name": "Lenovo 40B00135US - ThinkPad Thunderbolt 4 Dock",
+        "brand": "Lenovo",
+        "identifiers": {
+          "mpn": "40B00135US",
+          "upc": "074681460163"
+        },
+        "category": {
+          "code": "DOCK",
+          "label": "Docking Stations"
+        },
+        "long_description": "Thunderbolt 4 host connection, up to 4 displays, 100 W power delivery.",
+        "attributes": [
+          {
+            "name": "connector",
+            "value": "Thunderbolt 4"
+          },
+          {
+            "name": "max_displays",
+            "value": 4
+          },
+          {
+            "name": "power_delivery_w",
+            "value": 100
+          },
+          {
+            "name": "thunderbolt",
+            "value": true
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 319.49,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "low_stock",
+        "quantity": 3,
+        "lead_time_days": 5
+      },
+      "logistics": {
+        "delivery_window": "5-7 business days",
+        "ships_from": "NV-Reno"
+      },
+      "rating": {
+        "average": 4.96,
+        "count": 243,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20288",
+        "name": "Logitech Lift Vertical Ergonomic Mouse",
+        "brand": "Logitech",
+        "identifiers": {
+          "mpn": "910-006466",
+          "upc": "050043622677"
+        },
+        "category": {
+          "code": "INP-MS",
+          "label": "Input Devices / Mice"
+        },
+        "long_description": "Bluetooth / Logi Bolt connectivity, ergonomic design.",
+        "attributes": [
+          {
+            "name": "connection",
+            "value": "Bluetooth / Logi Bolt"
+          },
+          {
+            "name": "ergonomic",
+            "value": true
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 75.37,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 140,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": null,
+      "policies": {
+        "return_days": 30,
+        "warranty_months": 36
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20291",
+        "name": "Dell KB216 - KB216 Wired Multimedia Keyboard",
+        "brand": "Dell",
+        "identifiers": {
+          "mpn": "KB216",
+          "upc": "015425821123"
+        },
+        "category": {
+          "code": "INP-KB",
+          "label": "Input Devices / Keyboards"
+        },
+        "long_description": "Wired USB connectivity.",
+        "attributes": [
+          {
+            "name": "connection",
+            "value": "Wired USB"
+          },
+          {
+            "name": "ergonomic",
+            "value": false
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 21.11,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 337,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": {
+        "average": 3.45,
+        "count": 149,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 12
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20294",
+        "name": "Jabra Evolve2 40 UC Stereo Wired Headset USB-A",
+        "brand": "Jabra",
+        "identifiers": {
+          "mpn": "24089-989-999",
+          "upc": "076800456637"
+        },
+        "category": {
+          "code": "AUD-HS",
+          "label": "Audio / Headsets"
+        },
+        "long_description": "Wired USB-A, UC certified.",
+        "attributes": [
+          {
+            "name": "connection",
+            "value": "Wired USB-A"
+          },
+          {
+            "name": "wireless",
+            "value": false
+          },
+          {
+            "name": "anc",
+            "value": false
+          },
+          {
+            "name": "uc_certified",
+            "value": "UC"
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 134.8,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 373,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": null,
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 12
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20297",
+        "name": "LG 27BQ75QB-B 27\" QHD USB-C Business Monitor",
+        "brand": "LG",
+        "identifiers": {
+          "mpn": "27bq75qb-b",
+          "upc": "010440315787"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "27-inch IPS panel, 2560x1440 at 60 Hz, USB-C input with power delivery.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 27
+          },
+          {
+            "name": "resolution",
+            "value": "2560x1440"
+          },
+          {
+            "name": "panel",
+            "value": "IPS"
+          },
+          {
+            "name": "usb_c",
+            "value": true
+          },
+          {
+            "name": "refresh_hz",
+            "value": 60
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 393.65,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 221,
+        "lead_time_days": 2
+      },
+      "logistics": {
+        "delivery_window": "2-3 business days",
+        "ships_from": "OH-Columbus"
+      },
+      "rating": null,
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    },
+    {
+      "product": {
+        "id": "TS20300",
+        "name": "Samsung LC27G55TQWNXZA - Odyssey G5 27\" QHD 144Hz Curved Gaming Monitor",
+        "brand": "Samsung",
+        "identifiers": {
+          "mpn": "lc27g55tqwnxza",
+          "upc": "086925062729"
+        },
+        "category": {
+          "code": "MON",
+          "label": "Monitors"
+        },
+        "long_description": "27-inch VA panel, 2560x1440 at 144 Hz.",
+        "attributes": [
+          {
+            "name": "size_in",
+            "value": 27
+          },
+          {
+            "name": "resolution",
+            "value": "2560x1440"
+          },
+          {
+            "name": "panel",
+            "value": "VA"
+          },
+          {
+            "name": "usb_c",
+            "value": false
+          },
+          {
+            "name": "refresh_hz",
+            "value": 144
+          },
+          {
+            "name": "gaming",
+            "value": true
+          }
+        ]
+      },
+      "pricing": {
+        "amount": 295.66,
+        "currency": "USD"
+      },
+      "availability": {
+        "status": "available",
+        "quantity": 321,
+        "lead_time_days": 3
+      },
+      "logistics": {
+        "delivery_window": "3-5 business days",
+        "ships_from": "TX-Dallas"
+      },
+      "rating": {
+        "average": 3.83,
+        "count": 82,
+        "scale": 5
+      },
+      "policies": {
+        "return_days": 14,
+        "warranty_months": 60
+      },
+      "min_order_quantity": 1
+    }
+  ]
+}
