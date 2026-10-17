@@ -6,6 +6,7 @@ Every supplier returns its own raw schema. Adapters translate that into
 
 from __future__ import annotations
 
+import re
 from enum import Enum
 from typing import Any
 
@@ -15,8 +16,16 @@ from pydantic import BaseModel, Field, HttpUrl
 class Availability(str, Enum):
     IN_STOCK = "in_stock"
     LOW_STOCK = "low_stock"
+    BACKORDER = "backorder"
     OUT_OF_STOCK = "out_of_stock"
     UNKNOWN = "unknown"
+
+
+def normalize_mpn(mpn: str | None) -> str | None:
+    """'XPS9300-7909SLV', 'xps9300 7909slv' and 'XPS93007909SLV' all become 'xps93007909slv'."""
+    if not mpn:
+        return None
+    return re.sub(r"[^a-z0-9]", "", mpn.lower()) or None
 
 
 class Offer(BaseModel):
@@ -26,6 +35,9 @@ class Offer(BaseModel):
     supplier: str = Field(description="Supplier / data source name, e.g. 'DummyJSON'")
     supplier_product_id: str = Field(description="Supplier's own product ID")
     sku: str | None = None
+    manufacturer_part_number: str | None = Field(
+        default=None, description="Manufacturer part number (MPN) as the supplier wrote it"
+    )
     product_name: str = Field(description="Display name (DummyJSON: `title`)")
     title: str = Field(description="Raw title as returned by the supplier")
     description: str | None = None
@@ -60,6 +72,11 @@ class Offer(BaseModel):
     attributes: dict[str, Any] = Field(
         default_factory=dict, description="Supplier-specific extras (dimensions, weight, tags, ...)"
     )
+
+    @property
+    def match_key(self) -> str | None:
+        """Key for spotting the same product at different suppliers."""
+        return normalize_mpn(self.manufacturer_part_number)
 
     @property
     def is_purchasable(self) -> bool:

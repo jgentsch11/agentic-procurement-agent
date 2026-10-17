@@ -23,7 +23,10 @@ data/suppliers/         Generated mock data (output of setup/)
 src/procurement_agent/  The agent program
   models.py             Offer: the one shape every supplier is converted to
   suppliers/            One adapter per supplier
+    local_file.py       Shared loading and keyword search for the JSON-file suppliers
+    northstar.py, techsource.py, dummyjson.py
 tools/                  Manual helpers for poking at a supplier
+  search_suppliers.py   Search NorthStar and TechSource (or all three)
   search_dummyjson.py
 tests/
 ```
@@ -35,6 +38,14 @@ python3 -m venv venv
 venv/bin/pip install -r requirements.txt
 venv/bin/python setup/generate_mock_suppliers.py   # only needed to rebuild data/suppliers
 venv/bin/pytest -q
+```
+
+Search the two mock suppliers (no network needed):
+
+```
+venv/bin/python tools/search_suppliers.py "usb-c dock"
+venv/bin/python tools/search_suppliers.py "27 monitor" --supplier techsource
+venv/bin/python tools/search_suppliers.py "laptop" --supplier all     # adds DummyJSON
 ```
 
 Try the DummyJSON supplier on its own:
@@ -52,8 +63,8 @@ All prices are in US dollars.
 | Supplier | Source | Status |
 | --- | --- | --- |
 | DummyJSON | Public read-only REST API (`https://dummyjson.com/products`) | adapter built |
-| NorthStar Office Supply | `data/suppliers/northstar_office.json` (100 items) | data built, adapter planned |
-| TechSource Supply Co. | `data/suppliers/techsource.json` (100 items) | data built, adapter planned |
+| NorthStar Office Supply | `data/suppliers/northstar_office.json` (100 items) | adapter built |
+| TechSource Supply Co. | `data/suppliers/techsource.json` (100 items) | adapter built |
 
 Every adapter implements `SupplierAdapter` (`suppliers/base.py`) and returns `Offer` objects
 (`models.py`), so the rest of the program never sees a supplier-specific format.
