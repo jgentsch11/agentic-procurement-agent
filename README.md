@@ -15,6 +15,7 @@ The full brief is in `full_requirements_doc.txt`.
 ## Folder layout
 
 ```
+config/scoring.json     Ranking weights and filter thresholds (edit without touching code)
 setup/                  One-time setup. Builds the mock supplier data.
   generate_mock_suppliers.py
 data/suppliers/         Generated mock data (output of setup/)
@@ -22,10 +23,12 @@ data/suppliers/         Generated mock data (output of setup/)
   techsource.json
 src/procurement_agent/  The agent program
   models.py             Offer: the one shape every supplier is converted to
+  comparison.py         Search all suppliers, filter with reasons, score, group duplicates
   suppliers/            One adapter per supplier
     local_file.py       Shared loading and keyword search for the JSON-file suppliers
     northstar.py, techsource.py, dummyjson.py
-tools/                  Manual helpers for poking at a supplier
+tools/                  Manual helpers
+  compare.py            Run the comparison engine without the LLM
   search_suppliers.py   Search NorthStar and TechSource (or all three)
   search_dummyjson.py
 tests/
@@ -38,6 +41,13 @@ python3 -m venv venv
 venv/bin/pip install -r requirements.txt
 venv/bin/python setup/generate_mock_suppliers.py   # only needed to rebuild data/suppliers
 venv/bin/pytest -q
+```
+
+Run the comparison engine (search, filter, score and group) without the LLM:
+
+```
+venv/bin/python tools/compare.py "27 monitor" --qty 2 --max-price 450 --exclude arm mount gaming --dropped
+venv/bin/python tools/compare.py "usb-c dock" --local     # skip DummyJSON (no network)
 ```
 
 Search the two mock suppliers (no network needed):

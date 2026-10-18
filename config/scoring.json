@@ -1,0 +1,10 @@
+{
+  "weights": {
+    "price": 0.40,
+    "delivery": 0.30,
+    "rating": 0.30
+  },
+  "missing_rating_score": 0.5,
+  "suspicious_price_ratio": 0.30,
+  "supplier_timeout_seconds": 8
+}
