@@ -7,8 +7,9 @@ The full brief is in `full_requirements_doc.txt`.
 
 ## Tech stack
 
-- Python, with Amazon Bedrock as the LLM
-- Pydantic AI for the agent layer
+- Python, with Claude Sonnet 5 on Amazon Bedrock as the LLM
+- Anthropic Python SDK (`AnthropicBedrockMantle`) with structured outputs, so Claude's replies
+  always arrive as validated Pydantic objects
 - Streamlit for the chat input, comparison table and confirm button
 - `.env` for keys (copy `.env.example`; no keys in the repo)
 
@@ -24,10 +25,12 @@ data/suppliers/         Generated mock data (output of setup/)
 src/procurement_agent/  The agent program
   models.py             Offer: the one shape every supplier is converted to
   comparison.py         Search all suppliers, filter with reasons, score, group duplicates
+  llm.py                Claude on Bedrock: plain-English request -> SearchRequest
   suppliers/            One adapter per supplier
     local_file.py       Shared loading and keyword search for the JSON-file suppliers
     northstar.py, techsource.py, dummyjson.py
 tools/                  Manual helpers
+  ask.py                Plain-English request -> Claude -> comparison (needs .env)
   compare.py            Run the comparison engine without the LLM
   search_suppliers.py   Search NorthStar and TechSource (or all three)
   search_dummyjson.py
@@ -41,6 +44,13 @@ python3 -m venv venv
 venv/bin/pip install -r requirements.txt
 venv/bin/python setup/generate_mock_suppliers.py   # only needed to rebuild data/suppliers
 venv/bin/pytest -q
+```
+
+Ask in plain English (Claude reads the request, code does the rest; needs AWS keys in `.env`):
+
+```
+venv/bin/python tools/ask.py "I need an alphanumeric typing pad"
+venv/bin/python tools/ask.py "Two 27-inch office monitors, under \$450 each" --dropped
 ```
 
 Run the comparison engine (search, filter, score and group) without the LLM:

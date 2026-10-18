@@ -1,3 +1,5 @@
 pydantic
 httpx
 pytest
+anthropic[bedrock]
+python-dotenv
