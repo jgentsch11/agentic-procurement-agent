@@ -285,7 +285,10 @@ def build_northstar(items: list[tuple], rng: random.Random) -> dict:
     for i, (mpn, brand, name, cat, usd, specs) in enumerate(items, start=1):
         price = round(usd * rng.uniform(0.96, 1.06), 2)
         qty = rng.choice([0, 0, 3, 5, 8, 12, 25, 40, 60, 120, 250])
-        ships = rng.choice([1, 1, 2, 2, 3, 3, 5, 7, 10, 14])
+        # Same list length as before, so every other random field stays identical.
+        # Mostly 1-2 days (Expedited) so NorthStar's delivery times are on a par with
+        # TechSource's once transit is added.
+        ships = rng.choice([1, 1, 1, 1, 2, 2, 2, 3, 3, 5])
         rating = round(rng.uniform(3.2, 4.9), 1)
         sent = spec_sentence(cat, specs)
         desc = f"{brand} {name}. " + (f"{sent}. " if sent else "") + "Suitable for everyday office and hybrid-work use."
