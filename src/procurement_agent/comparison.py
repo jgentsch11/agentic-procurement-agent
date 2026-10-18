@@ -176,6 +176,18 @@ def _mentions(offer_words: set[str], phrase: str) -> bool:
     return _words(phrase) <= offer_words
 
 
+def _matches_search(offer: Offer, offer_words: set[str], term: str) -> bool:
+    """Every word of the search appears in the listing, or inside its category name.
+
+    The category check lets "phone" match a product filed under "smartphones"
+    (an "iPhone 13 Pro" never says "phone" in its own title).
+    """
+    category_words = _words(offer.category or "")
+    return all(
+        word in offer_words or any(word in c for c in category_words) for word in _words(term)
+    )
+
+
 def _price(offer: Offer) -> float | None:
     return offer.effective_price if offer.effective_price is not None else offer.price
 
@@ -183,7 +195,7 @@ def _price(offer: Offer) -> float | None:
 def relevance_reason(offer: Offer, request: SearchRequest) -> str | None:
     """Is this the kind of product that was asked for? None means yes."""
     words = _offer_words(offer)
-    if not any(_mentions(words, term) for term in request.search_terms):
+    if not any(_matches_search(offer, words, term) for term in request.search_terms):
         return "Not a match for the search (supplier returned an unrelated item)"
     missing = [m for m in request.must_have if not _mentions(words, m)]
     if missing:

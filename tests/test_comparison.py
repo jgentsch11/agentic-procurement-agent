@@ -109,6 +109,14 @@ def test_filter_drop_reasons(changes, request_kw, reason_start):
     assert dropped[0].reason.startswith(reason_start)
 
 
+def test_search_word_can_match_inside_the_category_name():
+    iphone = make_offer(title="iPhone 13 Pro", product_name="iPhone 13 Pro", category="smartphones")
+    earbuds = make_offer(supplier_product_id="2", title="Wireless Earphones", product_name="Wireless Earphones", category="mobile-accessories")
+    kept, dropped = filter_offers([iphone, earbuds], SearchRequest(search_terms=["phone"]), CONFIG)
+    assert [o.title for o in kept] == ["iPhone 13 Pro"]
+    assert dropped[0].reason.startswith("Not a match")
+
+
 def test_filter_keeps_a_good_offer():
     kept, dropped = filter_offers([make_offer()], SearchRequest(search_terms=["27 monitor"]), CONFIG)
     assert len(kept) == 1 and not dropped

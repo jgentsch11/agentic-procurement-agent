@@ -24,6 +24,9 @@ ENV_PATH = Path(__file__).resolve().parents[2] / ".env"
 DEFAULT_MODEL = "anthropic.claude-sonnet-5"
 MAX_QUANTITY = 500
 
+### This is where the users query gets turned into structured request by an LLM and sent to the search engine. 
+### This is also where we can prevent prompt injection attacks
+
 UNDERSTAND_PROMPT = """\
 You turn an employee's purchase request for office or IT equipment into a supplier \
 catalog search. You only fill in the fields of the reply format; another program \
