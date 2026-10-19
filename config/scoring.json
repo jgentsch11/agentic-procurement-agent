@@ -1,10 +1,10 @@
 {
   "weights": {
-    "price": 0.40,
-    "delivery": 0.30,
-    "rating": 0.30
+    "price": 0.6,
+    "delivery": 0.1,
+    "rating": 0.3
   },
   "missing_rating_score": 0.5,
-  "suspicious_price_ratio": 0.30,
-  "supplier_timeout_seconds": 8
+  "suspicious_price_ratio": 0.3,
+  "supplier_timeout_seconds": 8.0
 }

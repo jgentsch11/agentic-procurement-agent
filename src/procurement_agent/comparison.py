@@ -62,6 +62,9 @@ class ScoringConfig(BaseModel):
             return cls.model_validate(json.loads(path.read_text()))
         return cls()
 
+    def save(self, path: Path = CONFIG_PATH) -> None:
+        path.write_text(json.dumps(self.model_dump(), indent=2) + "\n")
+
 
 class SupplierStatus(BaseModel):
     supplier: str
@@ -332,6 +335,20 @@ def compare(
     config = config or ScoringConfig.load()
     suppliers = suppliers if suppliers is not None else default_suppliers()
     offers, statuses = search_all(request, suppliers, timeout=config.supplier_timeout_seconds)
+    return rank(offers, statuses, request, config)
+
+
+def rank(
+    offers: list[Offer],
+    statuses: list[SupplierStatus],
+    request: SearchRequest,
+    config: ScoringConfig,
+) -> ComparisonResult:
+    """Filter, score and group offers that were already fetched.
+
+    Kept separate from the search so the UI can re-rank with new weights instantly,
+    without asking the suppliers again.
+    """
     kept, dropped = filter_offers(offers, request, config)
     groups = group_offers(score_offers(kept, request, config))
     return ComparisonResult(request=request, groups=groups, dropped=dropped, suppliers=statuses)

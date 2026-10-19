@@ -1,0 +1,40 @@
+# Procurement Agent theme: calm slate neutrals with one indigo accent.
+# Light base; status colors are tuned so success/warning/error read clearly on white.
+
+[server]
+headless = true
+runOnSave = false
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+base = "light"
+primaryColor = "#4F46E5"              # indigo-600: buttons, sliders, focus rings
+backgroundColor = "#F7F8FB"           # app canvas
+secondaryBackgroundColor = "#EEF1F6"  # inputs, chat bubbles, code blocks
+textColor = "#1E2533"
+linkColor = "#4338CA"
+borderColor = "#DDE2EA"
+dataframeBorderColor = "#E4E8EF"
+dataframeHeaderBackgroundColor = "#F1F3F8"
+showWidgetBorder = true
+baseRadius = "10px"
+buttonRadius = "8px"
+font = "sans-serif"
+headingFontWeights = [700, 650, 600]
+codeFontSize = "0.85rem"
+
+greenColor = "#15803D"
+orangeColor = "#C2410C"
+redColor = "#B91C1C"
+blueColor = "#2563EB"
+violetColor = "#6D28D9"
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F5F9"
+borderColor = "#E4E8EF"

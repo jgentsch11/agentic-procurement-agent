@@ -16,7 +16,9 @@ The full brief is in `full_requirements_doc.txt`.
 ## Folder layout
 
 ```
-config/scoring.json     Ranking weights and filter thresholds (edit without touching code)
+app.py                  Streamlit entry point
+.streamlit/config.toml  Theme
+config/scoring.json     Ranking weights and filter thresholds (edit here or save from the app)
 setup/                  One-time setup. Builds the mock supplier data.
   generate_mock_suppliers.py
 data/suppliers/         Generated mock data (output of setup/)
@@ -27,6 +29,8 @@ src/procurement_agent/  The agent program
   comparison.py         Search all suppliers, filter with reasons, score, group duplicates
   llm.py                Claude on Bedrock: plain-English request -> SearchRequest
   recommend.py          Claude explains the top rows: reasoning and caveats, numbers checked
+  purchase_request.py   Chosen offer -> structured purchase request and email draft
+  ui/                   Streamlit pieces: state, sidebar, chat turns, results, purchase dialog, styles
   suppliers/            One adapter per supplier
     local_file.py       Shared loading and keyword search for the JSON-file suppliers
     northstar.py, techsource.py, dummyjson.py
@@ -37,6 +41,16 @@ tools/                  Manual helpers
   search_dummyjson.py
 tests/
 ```
+
+## Run the app
+
+```
+venv/bin/streamlit run app.py
+```
+
+Opens at http://localhost:8501. Type a request (or click an example), adjust the scoring weights in
+the sidebar to re-rank instantly, and use **Request purchase** to create a draft procurement request
+with an email you can copy. Nothing is ordered or sent.
 
 ## Setup
 

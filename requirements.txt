@@ -3,3 +3,4 @@ httpx
 pytest
 anthropic[bedrock]
 python-dotenv
+streamlit
