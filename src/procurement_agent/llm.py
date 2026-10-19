@@ -102,22 +102,22 @@ def make_client() -> AnthropicBedrockMantle:
     return AnthropicBedrockMantle(aws_region=os.environ.get("AWS_REGION") or "us-east-1")
 
 
-def understand_request(
-    text: str,
+def structured_call(
+    system: str,
+    content: str,
+    output_format: type[BaseModel],
     client: AnthropicBedrockMantle | None = None,
     model: str | None = None,
-) -> RequestUnderstanding:
-    """One Claude call: plain English in, `RequestUnderstanding` out."""
-    if not text.strip():
-        raise ValueError("Empty request")
+) -> BaseModel:
+    """One Claude call whose reply is forced into `output_format`."""
     client = client or make_client()
     try:
         response = client.messages.parse(
             model=model or model_id(),
             max_tokens=2000,
-            system=UNDERSTAND_PROMPT,
-            messages=[{"role": "user", "content": text}],
-            output_format=RequestUnderstanding,
+            system=system,
+            messages=[{"role": "user", "content": content}],
+            output_format=output_format,
         )
     except Exception as exc:  # network, auth, throttling, unknown model
         raise LLMError(f"Could not reach Claude on Bedrock: {exc}") from exc
@@ -127,3 +127,14 @@ def understand_request(
     if response.parsed_output is None:
         raise LLMError(f"Claude gave no usable answer (stop reason: {response.stop_reason})")
     return response.parsed_output
+
+
+def understand_request(
+    text: str,
+    client: AnthropicBedrockMantle | None = None,
+    model: str | None = None,
+) -> RequestUnderstanding:
+    """One Claude call: plain English in, `RequestUnderstanding` out."""
+    if not text.strip():
+        raise ValueError("Empty request")
+    return structured_call(UNDERSTAND_PROMPT, text, RequestUnderstanding, client, model)

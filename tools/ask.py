@@ -20,6 +20,27 @@ from compare import print_result  # noqa: E402
 
 from procurement_agent.comparison import compare  # noqa: E402
 from procurement_agent.llm import LLMError, understand_request  # noqa: E402
+from procurement_agent.recommend import Recommendation, recommend  # noqa: E402
+
+
+def print_recommendation(rec: Recommendation) -> None:
+    print("\nRecommendation")
+    print("-" * 14)
+    if rec.top:
+        best = rec.top.best
+        print(f"Pick:      {rec.top.product_name} from {best.offer.supplier}, "
+              f"${best.total_price:,.2f} total")
+    if rec.runner_up:
+        print(f"Runner-up: {rec.runner_up.product_name} from {rec.runner_up.best.offer.supplier}, "
+              f"${rec.runner_up.best.total_price:,.2f} total")
+    print(f"\n{rec.reasoning}")
+    if rec.caveats:
+        label = "Before you buy:" if rec.top else "Try instead:"
+        print(f"\n{label}")
+        for c in rec.caveats:
+            print(f"  - {c}")
+    if rec.unverified_numbers:
+        print(f"\n(Check: {', '.join(rec.unverified_numbers)} could not be matched to the supplier data.)")
 
 
 def main() -> int:
@@ -47,8 +68,14 @@ def main() -> int:
         f" | budget {f'${request.max_unit_price:,.2f}/unit' if request.max_unit_price else 'none'}"
         f" | must have: {', '.join(request.must_have) or '-'} | exclude: {', '.join(request.exclude) or '-'}\n"
     )
-    if not args.understand_only:
-        print_result(compare(request), args.dropped)
+    if args.understand_only:
+        return 0
+    result = compare(request)
+    print_result(result, args.dropped)
+    try:
+        print_recommendation(recommend(result, args.request))
+    except LLMError as exc:
+        print(f"\nNo recommendation: {exc}", file=sys.stderr)
     return 0
 
 

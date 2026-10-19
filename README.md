@@ -26,11 +26,12 @@ src/procurement_agent/  The agent program
   models.py             Offer: the one shape every supplier is converted to
   comparison.py         Search all suppliers, filter with reasons, score, group duplicates
   llm.py                Claude on Bedrock: plain-English request -> SearchRequest
+  recommend.py          Claude explains the top rows: reasoning and caveats, numbers checked
   suppliers/            One adapter per supplier
     local_file.py       Shared loading and keyword search for the JSON-file suppliers
     northstar.py, techsource.py, dummyjson.py
 tools/                  Manual helpers
-  ask.py                Plain-English request -> Claude -> comparison (needs .env)
+  ask.py                Plain-English request -> Claude -> comparison -> recommendation (needs .env)
   compare.py            Run the comparison engine without the LLM
   search_suppliers.py   Search NorthStar and TechSource (or all three)
   search_dummyjson.py
@@ -112,8 +113,11 @@ Example request: *"I need a 27-inch monitor suitable for office work, two of the
 5. **Score (code).** Remaining offers are ranked by
    `0.40 × price + 0.30 × delivery speed + 0.30 × rating` (each scaled 0 to 1).
    Weights live in a config file so procurement can change them without touching a prompt.
-6. **Recommend (LLM).** The model sees only the top ~5 scored offers and writes a short
-   recommendation, a runner-up and any caveats. It may only cite values present in that data.
+6. **Recommend (LLM).** The pick is always the top-scored row and the runner-up is row 2; code
+   decides that, not the model. Claude sees only the top 5 rows and a count of dropped offers by
+   reason, and writes 2 to 3 sentences of reasoning plus caveats (low stock, short warranty,
+   cheaper elsewhere). Every dollar amount and day count in its text is checked against that data,
+   and anything that doesn't match is flagged. With no results, it explains why and suggests a rephrase.
 7. **Show results (Streamlit).** What the agent understood, the comparison table, and the
    recommendation.
 8. **Human confirms.** A "Request purchase" button opens a confirmation with quantity, price,
