@@ -16,7 +16,7 @@ import streamlit as st  # noqa: E402
 from procurement_agent.ui import state  # noqa: E402
 from procurement_agent.ui.chat import USER_AVATAR, render_turn, render_welcome, run_turn  # noqa: E402
 from procurement_agent.ui.sidebar import render_sidebar  # noqa: E402
-from procurement_agent.ui.results import md  # noqa: E402
+from procurement_agent.ui.results import md, render_audit_log  # noqa: E402
 from procurement_agent.ui.state import Turn  # noqa: E402
 from procurement_agent.ui.styles import apply_styles  # noqa: E402
 
@@ -50,6 +50,10 @@ def main() -> None:
         run_turn(turn, config)
         st.session_state.turns.append(turn)
         st.rerun()
+
+    # Only the latest search has a log; it starts fresh with every new search.
+    if st.session_state.turns:
+        render_audit_log(st.session_state.turns[-1].audit)
 
 
 main()

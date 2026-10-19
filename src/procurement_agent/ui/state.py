@@ -11,6 +11,7 @@ from itertools import count
 
 import streamlit as st
 
+from procurement_agent.audit import AuditLog
 from procurement_agent.comparison import (
     ComparisonResult,
     ScoringConfig,
@@ -51,6 +52,10 @@ class Turn:
     recommendation_config: dict | None = None
     recommendation_error: str | None = None
     streamed: bool = False
+    audit: AuditLog = field(default_factory=AuditLog)
+
+    def __post_init__(self) -> None:
+        self.audit.request_text = self.user_text
 
     def result(self, config: ScoringConfig) -> ComparisonResult | None:
         """Re-rank the stored offers with the current sliders (no supplier calls)."""
@@ -108,6 +113,10 @@ def current_config() -> ScoringConfig:
 
 def current_requester() -> Requester:
     return Requester(**{name: st.session_state[key].strip() for name, key in REQUESTER_KEYS.items()})
+
+
+def find_turn(turn_id: int) -> Turn | None:
+    return next((t for t in st.session_state.turns if t.id == turn_id), None)
 
 
 def add_draft(pr: PurchaseRequest) -> None:

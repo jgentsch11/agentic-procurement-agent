@@ -28,6 +28,9 @@ CSS = """
 /* Welcome card and example prompts */
 .st-key-welcome { background: linear-gradient(180deg, #FFFFFF 0%, #F5F6FF 100%); }
 div[class*="st-key-example_"] button { justify-content: flex-start; text-align: left; height: 100%; }
+div[class*="st-key-example_"] button div, div[class*="st-key-example_"] button p {
+  white-space: normal; overflow: visible; text-overflow: clip; text-align: left; justify-content: flex-start;
+}
 
 /* Purchase panel under each result */
 div[class*="st-key-buy_panel_"] { background: #FFFFFF; }

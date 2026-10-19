@@ -84,7 +84,7 @@ def _offer_facts(s: ScoredOffer) -> dict:
     }
 
 
-def _drop_category(reason: str) -> str:
+def drop_category(reason: str) -> str:
     return re.split(r" \(|:|,", reason, maxsplit=1)[0]
 
 
@@ -106,7 +106,7 @@ def build_context(result: ComparisonResult, user_request: str) -> dict:
         "max_unit_price": r.max_unit_price,
         "rows": rows,
         "rows_not_shown": max(0, len(result.groups) - TOP_ROWS),
-        "dropped_offers": dict(Counter(_drop_category(d.reason) for d in result.dropped)),
+        "dropped_offers": dict(Counter(drop_category(d.reason) for d in result.dropped)),
         "failed_suppliers": [s.supplier for s in result.suppliers if not s.ok],
     }
 
@@ -160,10 +160,13 @@ def recommend(
     user_request: str,
     client: AnthropicBedrockMantle | None = None,
     model: str | None = None,
+    stats: dict | None = None,
 ) -> Recommendation:
     context = build_context(result, user_request)
+    if stats is not None:
+        stats["rows_sent"] = len(context["rows"])
     text = structured_call(
-        RECOMMEND_PROMPT, json.dumps(context, indent=2), RecommendationText, client, model
+        RECOMMEND_PROMPT, json.dumps(context, indent=2), RecommendationText, client, model, stats
     )
     caveats = [c.strip() for c in text.caveats if c.strip()]
     return Recommendation(

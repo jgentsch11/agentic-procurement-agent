@@ -16,6 +16,7 @@ from __future__ import annotations
 import json
 import re
 import statistics
+import time
 from concurrent.futures import ThreadPoolExecutor, wait
 from pathlib import Path
 
@@ -71,6 +72,7 @@ class SupplierStatus(BaseModel):
     ok: bool
     offers_found: int = 0
     error: str | None = None
+    duration_ms: int | None = Field(default=None, description="How long this supplier took")
 
 
 class DroppedOffer(BaseModel):
@@ -126,6 +128,16 @@ def _search_one(supplier: SupplierAdapter, terms: list[str]) -> list[Offer]:
     return list(seen.values())
 
 
+def _search_timed(supplier: SupplierAdapter, terms: list[str]) -> tuple[list[Offer], SupplierError | None, int]:
+    """Search one supplier and time it, so the audit log can show each supplier's duration."""
+    start = time.perf_counter()
+    try:
+        found, error = _search_one(supplier, terms), None
+    except SupplierError as exc:
+        found, error = [], exc
+    return found, error, round((time.perf_counter() - start) * 1000)
+
+
 def search_all(
     request: SearchRequest,
     suppliers: list[SupplierAdapter],
@@ -133,7 +145,7 @@ def search_all(
 ) -> tuple[list[Offer], list[SupplierStatus]]:
     """Query every supplier at once. A slow or failing supplier never blocks the others."""
     pool = ThreadPoolExecutor(max_workers=len(suppliers) or 1)
-    futures = {pool.submit(_search_one, s, request.search_terms): s for s in suppliers}
+    futures = {pool.submit(_search_timed, s, request.search_terms): s for s in suppliers}
     done, _ = wait(futures, timeout=timeout)
     pool.shutdown(wait=False, cancel_futures=True)
 
@@ -141,15 +153,16 @@ def search_all(
     statuses: list[SupplierStatus] = []
     for future, supplier in futures.items():
         if future not in done:
-            statuses.append(SupplierStatus(supplier=supplier.name, ok=False, error="timed out"))
+            statuses.append(
+                SupplierStatus(supplier=supplier.name, ok=False, error="timed out", duration_ms=round(timeout * 1000))
+            )
             continue
-        try:
-            found = future.result()
-        except SupplierError as exc:
-            statuses.append(SupplierStatus(supplier=supplier.name, ok=False, error=str(exc)))
+        found, error, ms = future.result()
+        if error:
+            statuses.append(SupplierStatus(supplier=supplier.name, ok=False, error=str(error), duration_ms=ms))
             continue
         offers += found
-        statuses.append(SupplierStatus(supplier=supplier.name, ok=True, offers_found=len(found)))
+        statuses.append(SupplierStatus(supplier=supplier.name, ok=True, offers_found=len(found), duration_ms=ms))
     return offers, statuses
 
 

@@ -74,11 +74,23 @@ def purchase_dialog(
 
     cols = st.columns([1, 1, 2])
     if cols[0].button("Create request", type="primary", key=f"dlg_create_{turn_id}", disabled=not confirmed, icon=":material/check:"):
+        turn = state.find_turn(turn_id)
         try:
             pr = build_purchase_request(choice, int(qty), requester, original_request, reason, alternatives)
         except ValueError as exc:
+            if turn:
+                turn.audit.add("purchase", "Purchase request not created", f"error: {exc}", status="error")
             st.error(str(exc))
             return
+        if turn:
+            who = " · ".join(v for v in (requester.name, requester.department, requester.cost_center) if v)
+            turn.audit.add(
+                "purchase", "Purchase request draft created",
+                f"request id: {pr.request_id} · status: {pr.status}",
+                f"item: {o.product_name} at {o.supplier} · quantity {pr.quantity} · total {money(pr.total_price)}",
+                f"requester: {who or 'not filled in'}",
+                "nothing was ordered or sent; the email draft is for the employee to send",
+            )
         state.add_draft(pr)
         st.session_state[done_key] = {"offer_key": (o.supplier, o.supplier_product_id), "request": pr}
         st.rerun()

@@ -26,7 +26,9 @@ git-ignored; no keys are in the repo.
 
 ## Using the app
 
-- **Ask** in the chat box, or click one of the example requests.
+- **Ask** in the chat box, or pick an example on the home screen. The examples are grouped by what
+  they show: happy path, plain language, exclusions, budgets and quantities, the live supplier API, and guardrails
+  (including prompt-injection attempts).
 - **Read the result:** what the agent understood, the recommendation with caveats, which suppliers
   answered, the comparison table (lowest price in bold) and a tab listing every dropped offer and why.
 - **Tune the ranking** with the sidebar sliders (price, delivery speed, rating, plus filter limits).
@@ -36,6 +38,10 @@ git-ignored; no keys are in the repo.
   "nothing is ordered" checkbox). Confirming creates a structured draft request and an email to
   `procurement@yourcompany.com` with a copy button. Requester name, department and cost center
   come from the sidebar.
+- **Audit log** at the bottom of the page (collapsed) lists every step the agent ran for the latest
+  search: the two Claude calls (model, timing, token counts, the parsed fields), each supplier search,
+  the filtering and ranking, and any purchase request drafted from that result. It starts fresh with
+  each new search, has a copy button, and never shows prompts or Claude's full replies.
 
 ## Architecture
 
@@ -111,11 +117,12 @@ src/procurement_agent/
   llm.py                Claude on Bedrock: request -> SearchRequest
   recommend.py          Claude: top rows -> reasoning and caveats, with the number check
   purchase_request.py   Chosen offer -> structured purchase request and email draft
+  audit.py              Audit log for one search: timed steps, rendered as plain text
   ui/                   Streamlit: session state, sidebar, chat turns, results, purchase dialog, styles
 setup/generate_mock_suppliers.py   Builds the two mock supplier files
 data/suppliers/         The generated mock data
 tools/                  Command-line helpers (below)
-tests/                  89 offline tests: adapters, engine, Claude steps (faked), purchase request, app
+tests/                  100 offline tests: adapters, engine, Claude steps (faked), purchase request, audit log, app
 ```
 
 ## Data sources

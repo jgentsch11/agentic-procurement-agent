@@ -108,12 +108,20 @@ def structured_call(
     output_format: type[BaseModel],
     client: AnthropicBedrockMantle | None = None,
     model: str | None = None,
+    stats: dict | None = None,
 ) -> BaseModel:
-    """One Claude call whose reply is forced into `output_format`."""
+    """One Claude call whose reply is forced into `output_format`.
+
+    Pass a dict as `stats` to get the model, token counts and stop reason back
+    for the audit log.
+    """
     client = client or make_client()
+    model = model or model_id()
+    if stats is not None:
+        stats["model"] = model
     try:
         response = client.messages.parse(
-            model=model or model_id(),
+            model=model,
             max_tokens=2000,
             system=system,
             messages=[{"role": "user", "content": content}],
@@ -122,6 +130,11 @@ def structured_call(
     except Exception as exc:  # network, auth, throttling, unknown model
         raise LLMError(f"Could not reach Claude on Bedrock: {exc}") from exc
 
+    if stats is not None:
+        usage = getattr(response, "usage", None)
+        stats["input_tokens"] = getattr(usage, "input_tokens", None)
+        stats["output_tokens"] = getattr(usage, "output_tokens", None)
+        stats["stop_reason"] = response.stop_reason
     if response.stop_reason == "refusal":
         raise LLMError("Claude declined to process this request")
     if response.parsed_output is None:
@@ -133,8 +146,9 @@ def understand_request(
     text: str,
     client: AnthropicBedrockMantle | None = None,
     model: str | None = None,
+    stats: dict | None = None,
 ) -> RequestUnderstanding:
     """One Claude call: plain English in, `RequestUnderstanding` out."""
     if not text.strip():
         raise ValueError("Empty request")
-    return structured_call(UNDERSTAND_PROMPT, text, RequestUnderstanding, client, model)
+    return structured_call(UNDERSTAND_PROMPT, text, RequestUnderstanding, client, model, stats)

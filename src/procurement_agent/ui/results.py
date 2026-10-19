@@ -8,6 +8,7 @@ from collections.abc import Iterator
 import pandas as pd
 import streamlit as st
 
+from procurement_agent.audit import AuditLog
 from procurement_agent.comparison import ComparisonResult, ScoredOffer, SearchRequest
 from procurement_agent.llm import RequestUnderstanding
 from procurement_agent.recommend import Recommendation
@@ -181,3 +182,15 @@ def render_dropped(result: ComparisonResult, key: str) -> None:
         column_config={"Price": st.column_config.NumberColumn(format="$%.2f"),
                        "Reason": st.column_config.TextColumn(width="large")},
     )
+
+
+# -- audit log --------------------------------------------------------------------
+
+
+def render_audit_log(audit: AuditLog) -> None:
+    """Collapsed panel with the plain-text log of the latest search. st.code adds the copy button."""
+    if not audit.events:
+        return
+    with st.expander(f"Audit log · {audit.summary()}", icon=":material/receipt_long:"):
+        st.caption("Every step the agent ran for this search. Prompts and Claude's full replies are not shown.")
+        st.code(audit.to_text(), language=None)
