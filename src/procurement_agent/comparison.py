@@ -35,8 +35,9 @@ CONFIG_PATH = Path(__file__).resolve().parents[2] / "config" / "scoring.json"
 
 
 # -- data shapes ------------------------------------------------------------------
-
-
+#####
+##### This is the structured parameters that the LLM fills in from the user's request####
+####
 class SearchRequest(BaseModel):
     """What the user wants, in structured form. The LLM fills this in later."""
 
@@ -207,7 +208,10 @@ def _matches_search(offer: Offer, offer_words: set[str], term: str) -> bool:
 def _price(offer: Offer) -> float | None:
     return offer.effective_price if offer.effective_price is not None else offer.price
 
-
+####
+#### every result’s title, brand, category, description and specs are split into words. 
+#### If any exclude word appears as a whole word the item is dropped.
+####
 def relevance_reason(offer: Offer, request: SearchRequest) -> str | None:
     """Is this the kind of product that was asked for? None means yes."""
     words = _offer_words(offer)
